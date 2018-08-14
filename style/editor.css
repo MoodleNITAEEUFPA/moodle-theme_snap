@@ -1,5 +1,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 /* stylelint-disable declaration-no-important*/
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -236,16 +238,7 @@ html {
 }
 
 body {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.6;
     color: #565656;
@@ -286,8 +279,8 @@ img {
 }
 
 .img-responsive,
-.thumbnail > img,
-.thumbnail a > img {
+.thumbnail>img,
+.thumbnail a>img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -359,16 +352,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 1.5;
     color: #565656;
@@ -668,7 +652,7 @@ ol ol {
     margin-left: -5px;
 }
 
-.list-inline > li {
+.list-inline>li {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
@@ -702,7 +686,6 @@ dd {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-
     .dl-horizontal dd {
         margin-left: 180px;
     }
@@ -1164,207 +1147,156 @@ pre code {
     .col-sm-12 {
         float: left;
     }
-
     .col-sm-12 {
         width: 100%;
     }
-
     .col-sm-11 {
         width: 91.66666667%;
     }
-
     .col-sm-10 {
         width: 83.33333333%;
     }
-
     .col-sm-9 {
         width: 75%;
     }
-
     .col-sm-8 {
         width: 66.66666667%;
     }
-
     .col-sm-7 {
         width: 58.33333333%;
     }
-
     .col-sm-6 {
         width: 50%;
     }
-
     .col-sm-5 {
         width: 41.66666667%;
     }
-
     .col-sm-4 {
         width: 33.33333333%;
     }
-
     .col-sm-3 {
         width: 25%;
     }
-
     .col-sm-2 {
         width: 16.66666667%;
     }
-
     .col-sm-1 {
         width: 8.33333333%;
     }
-
     .col-sm-pull-12 {
         right: 100%;
     }
-
     .col-sm-pull-11 {
         right: 91.66666667%;
     }
-
     .col-sm-pull-10 {
         right: 83.33333333%;
     }
-
     .col-sm-pull-9 {
         right: 75%;
     }
-
     .col-sm-pull-8 {
         right: 66.66666667%;
     }
-
     .col-sm-pull-7 {
         right: 58.33333333%;
     }
-
     .col-sm-pull-6 {
         right: 50%;
     }
-
     .col-sm-pull-5 {
         right: 41.66666667%;
     }
-
     .col-sm-pull-4 {
         right: 33.33333333%;
     }
-
     .col-sm-pull-3 {
         right: 25%;
     }
-
     .col-sm-pull-2 {
         right: 16.66666667%;
     }
-
     .col-sm-pull-1 {
         right: 8.33333333%;
     }
-
     .col-sm-pull-0 {
         right: auto;
     }
-
     .col-sm-push-12 {
         left: 100%;
     }
-
     .col-sm-push-11 {
         left: 91.66666667%;
     }
-
     .col-sm-push-10 {
         left: 83.33333333%;
     }
-
     .col-sm-push-9 {
         left: 75%;
     }
-
     .col-sm-push-8 {
         left: 66.66666667%;
     }
-
     .col-sm-push-7 {
         left: 58.33333333%;
     }
-
     .col-sm-push-6 {
         left: 50%;
     }
-
     .col-sm-push-5 {
         left: 41.66666667%;
     }
-
     .col-sm-push-4 {
         left: 33.33333333%;
     }
-
     .col-sm-push-3 {
         left: 25%;
     }
-
     .col-sm-push-2 {
         left: 16.66666667%;
     }
-
     .col-sm-push-1 {
         left: 8.33333333%;
     }
-
     .col-sm-push-0 {
         left: auto;
     }
-
     .col-sm-offset-12 {
         margin-left: 100%;
     }
-
     .col-sm-offset-11 {
         margin-left: 91.66666667%;
     }
-
     .col-sm-offset-10 {
         margin-left: 83.33333333%;
     }
-
     .col-sm-offset-9 {
         margin-left: 75%;
     }
-
     .col-sm-offset-8 {
         margin-left: 66.66666667%;
     }
-
     .col-sm-offset-7 {
         margin-left: 58.33333333%;
     }
-
     .col-sm-offset-6 {
         margin-left: 50%;
     }
-
     .col-sm-offset-5 {
         margin-left: 41.66666667%;
     }
-
     .col-sm-offset-4 {
         margin-left: 33.33333333%;
     }
-
     .col-sm-offset-3 {
         margin-left: 25%;
     }
-
     .col-sm-offset-2 {
         margin-left: 16.66666667%;
     }
-
     .col-sm-offset-1 {
         margin-left: 8.33333333%;
     }
-
     .col-sm-offset-0 {
         margin-left: 0%;
     }
@@ -1385,207 +1317,156 @@ pre code {
     .col-md-12 {
         float: left;
     }
-
     .col-md-12 {
         width: 100%;
     }
-
     .col-md-11 {
         width: 91.66666667%;
     }
-
     .col-md-10 {
         width: 83.33333333%;
     }
-
     .col-md-9 {
         width: 75%;
     }
-
     .col-md-8 {
         width: 66.66666667%;
     }
-
     .col-md-7 {
         width: 58.33333333%;
     }
-
     .col-md-6 {
         width: 50%;
     }
-
     .col-md-5 {
         width: 41.66666667%;
     }
-
     .col-md-4 {
         width: 33.33333333%;
     }
-
     .col-md-3 {
         width: 25%;
     }
-
     .col-md-2 {
         width: 16.66666667%;
     }
-
     .col-md-1 {
         width: 8.33333333%;
     }
-
     .col-md-pull-12 {
         right: 100%;
     }
-
     .col-md-pull-11 {
         right: 91.66666667%;
     }
-
     .col-md-pull-10 {
         right: 83.33333333%;
     }
-
     .col-md-pull-9 {
         right: 75%;
     }
-
     .col-md-pull-8 {
         right: 66.66666667%;
     }
-
     .col-md-pull-7 {
         right: 58.33333333%;
     }
-
     .col-md-pull-6 {
         right: 50%;
     }
-
     .col-md-pull-5 {
         right: 41.66666667%;
     }
-
     .col-md-pull-4 {
         right: 33.33333333%;
     }
-
     .col-md-pull-3 {
         right: 25%;
     }
-
     .col-md-pull-2 {
         right: 16.66666667%;
     }
-
     .col-md-pull-1 {
         right: 8.33333333%;
     }
-
     .col-md-pull-0 {
         right: auto;
     }
-
     .col-md-push-12 {
         left: 100%;
     }
-
     .col-md-push-11 {
         left: 91.66666667%;
     }
-
     .col-md-push-10 {
         left: 83.33333333%;
     }
-
     .col-md-push-9 {
         left: 75%;
     }
-
     .col-md-push-8 {
         left: 66.66666667%;
     }
-
     .col-md-push-7 {
         left: 58.33333333%;
     }
-
     .col-md-push-6 {
         left: 50%;
     }
-
     .col-md-push-5 {
         left: 41.66666667%;
     }
-
     .col-md-push-4 {
         left: 33.33333333%;
     }
-
     .col-md-push-3 {
         left: 25%;
     }
-
     .col-md-push-2 {
         left: 16.66666667%;
     }
-
     .col-md-push-1 {
         left: 8.33333333%;
     }
-
     .col-md-push-0 {
         left: auto;
     }
-
     .col-md-offset-12 {
         margin-left: 100%;
     }
-
     .col-md-offset-11 {
         margin-left: 91.66666667%;
     }
-
     .col-md-offset-10 {
         margin-left: 83.33333333%;
     }
-
     .col-md-offset-9 {
         margin-left: 75%;
     }
-
     .col-md-offset-8 {
         margin-left: 66.66666667%;
     }
-
     .col-md-offset-7 {
         margin-left: 58.33333333%;
     }
-
     .col-md-offset-6 {
         margin-left: 50%;
     }
-
     .col-md-offset-5 {
         margin-left: 41.66666667%;
     }
-
     .col-md-offset-4 {
         margin-left: 33.33333333%;
     }
-
     .col-md-offset-3 {
         margin-left: 25%;
     }
-
     .col-md-offset-2 {
         margin-left: 16.66666667%;
     }
-
     .col-md-offset-1 {
         margin-left: 8.33333333%;
     }
-
     .col-md-offset-0 {
         margin-left: 0%;
     }
@@ -1606,207 +1487,156 @@ pre code {
     .col-lg-12 {
         float: left;
     }
-
     .col-lg-12 {
         width: 100%;
     }
-
     .col-lg-11 {
         width: 91.66666667%;
     }
-
     .col-lg-10 {
         width: 83.33333333%;
     }
-
     .col-lg-9 {
         width: 75%;
     }
-
     .col-lg-8 {
         width: 66.66666667%;
     }
-
     .col-lg-7 {
         width: 58.33333333%;
     }
-
     .col-lg-6 {
         width: 50%;
     }
-
     .col-lg-5 {
         width: 41.66666667%;
     }
-
     .col-lg-4 {
         width: 33.33333333%;
     }
-
     .col-lg-3 {
         width: 25%;
     }
-
     .col-lg-2 {
         width: 16.66666667%;
     }
-
     .col-lg-1 {
         width: 8.33333333%;
     }
-
     .col-lg-pull-12 {
         right: 100%;
     }
-
     .col-lg-pull-11 {
         right: 91.66666667%;
     }
-
     .col-lg-pull-10 {
         right: 83.33333333%;
     }
-
     .col-lg-pull-9 {
         right: 75%;
     }
-
     .col-lg-pull-8 {
         right: 66.66666667%;
     }
-
     .col-lg-pull-7 {
         right: 58.33333333%;
     }
-
     .col-lg-pull-6 {
         right: 50%;
     }
-
     .col-lg-pull-5 {
         right: 41.66666667%;
     }
-
     .col-lg-pull-4 {
         right: 33.33333333%;
     }
-
     .col-lg-pull-3 {
         right: 25%;
     }
-
     .col-lg-pull-2 {
         right: 16.66666667%;
     }
-
     .col-lg-pull-1 {
         right: 8.33333333%;
     }
-
     .col-lg-pull-0 {
         right: auto;
     }
-
     .col-lg-push-12 {
         left: 100%;
     }
-
     .col-lg-push-11 {
         left: 91.66666667%;
     }
-
     .col-lg-push-10 {
         left: 83.33333333%;
     }
-
     .col-lg-push-9 {
         left: 75%;
     }
-
     .col-lg-push-8 {
         left: 66.66666667%;
     }
-
     .col-lg-push-7 {
         left: 58.33333333%;
     }
-
     .col-lg-push-6 {
         left: 50%;
     }
-
     .col-lg-push-5 {
         left: 41.66666667%;
     }
-
     .col-lg-push-4 {
         left: 33.33333333%;
     }
-
     .col-lg-push-3 {
         left: 25%;
     }
-
     .col-lg-push-2 {
         left: 16.66666667%;
     }
-
     .col-lg-push-1 {
         left: 8.33333333%;
     }
-
     .col-lg-push-0 {
         left: auto;
     }
-
     .col-lg-offset-12 {
         margin-left: 100%;
     }
-
     .col-lg-offset-11 {
         margin-left: 91.66666667%;
     }
-
     .col-lg-offset-10 {
         margin-left: 83.33333333%;
     }
-
     .col-lg-offset-9 {
         margin-left: 75%;
     }
-
     .col-lg-offset-8 {
         margin-left: 66.66666667%;
     }
-
     .col-lg-offset-7 {
         margin-left: 58.33333333%;
     }
-
     .col-lg-offset-6 {
         margin-left: 50%;
     }
-
     .col-lg-offset-5 {
         margin-left: 41.66666667%;
     }
-
     .col-lg-offset-4 {
         margin-left: 33.33333333%;
     }
-
     .col-lg-offset-3 {
         margin-left: 25%;
     }
-
     .col-lg-offset-2 {
         margin-left: 16.66666667%;
     }
-
     .col-lg-offset-1 {
         margin-left: 8.33333333%;
     }
-
     .col-lg-offset-0 {
         margin-left: 0%;
     }
@@ -1833,33 +1663,33 @@ th {
     margin-bottom: 28px;
 }
 
-.table > thead > tr > th,
-.table > tbody > tr > th,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > td,
-.table > tfoot > tr > td {
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
     padding: 8px;
     line-height: 1.6;
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
 
-.table > thead > tr > th {
+.table>thead>tr>th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
 }
 
-.table > caption + thead > tr:first-child > th,
-.table > colgroup + thead > tr:first-child > th,
-.table > thead:first-child > tr:first-child > th,
-.table > caption + thead > tr:first-child > td,
-.table > colgroup + thead > tr:first-child > td,
-.table > thead:first-child > tr:first-child > td {
+.table>caption+thead>tr:first-child>th,
+.table>colgroup+thead>tr:first-child>th,
+.table>thead:first-child>tr:first-child>th,
+.table>caption+thead>tr:first-child>td,
+.table>colgroup+thead>tr:first-child>td,
+.table>thead:first-child>tr:first-child>td {
     border-top: 0;
 }
 
-.table > tbody + tbody {
+.table>tbody+tbody {
     border-top: 2px solid #ddd;
 }
 
@@ -1867,12 +1697,12 @@ th {
     background-color: #fff;
 }
 
-.table-condensed > thead > tr > th,
-.table-condensed > tbody > tr > th,
-.table-condensed > tfoot > tr > th,
-.table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > td,
-.table-condensed > tfoot > tr > td {
+.table-condensed>thead>tr>th,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>tbody>tr>td,
+.table-condensed>tfoot>tr>td {
     padding: 4px;
 }
 
@@ -1880,25 +1710,25 @@ th {
     border: 1px solid #ddd;
 }
 
-.table-bordered > thead > tr > th,
-.table-bordered > tbody > tr > th,
-.table-bordered > tfoot > tr > th,
-.table-bordered > thead > tr > td,
-.table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > td {
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
     border: 1px solid #ddd;
 }
 
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
+.table-bordered>thead>tr>th,
+.table-bordered>thead>tr>td {
     border-bottom-width: 2px;
 }
 
-.table-striped > tbody > tr:nth-of-type(odd) {
+.table-striped>tbody>tr:nth-of-type(odd) {
     background-color: #f9f9f9;
 }
 
-.table-hover > tbody > tr:hover {
+.table-hover>tbody>tr:hover {
     background-color: #f5f5f5;
 }
 
@@ -1915,118 +1745,118 @@ table th[class*="col-"] {
     display: table-cell;
 }
 
-.table > thead > tr > td.active,
-.table > tbody > tr > td.active,
-.table > tfoot > tr > td.active,
-.table > thead > tr > th.active,
-.table > tbody > tr > th.active,
-.table > tfoot > tr > th.active,
-.table > thead > tr.active > td,
-.table > tbody > tr.active > td,
-.table > tfoot > tr.active > td,
-.table > thead > tr.active > th,
-.table > tbody > tr.active > th,
-.table > tfoot > tr.active > th {
+.table>thead>tr>td.active,
+.table>tbody>tr>td.active,
+.table>tfoot>tr>td.active,
+.table>thead>tr>th.active,
+.table>tbody>tr>th.active,
+.table>tfoot>tr>th.active,
+.table>thead>tr.active>td,
+.table>tbody>tr.active>td,
+.table>tfoot>tr.active>td,
+.table>thead>tr.active>th,
+.table>tbody>tr.active>th,
+.table>tfoot>tr.active>th {
     background-color: #f5f5f5;
 }
 
-.table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover,
-.table-hover > tbody > tr.active:hover > td,
-.table-hover > tbody > tr:hover > .active,
-.table-hover > tbody > tr.active:hover > th {
+.table-hover>tbody>tr>td.active:hover,
+.table-hover>tbody>tr>th.active:hover,
+.table-hover>tbody>tr.active:hover>td,
+.table-hover>tbody>tr:hover>.active,
+.table-hover>tbody>tr.active:hover>th {
     background-color: #e8e8e8;
 }
 
-.table > thead > tr > td.success,
-.table > tbody > tr > td.success,
-.table > tfoot > tr > td.success,
-.table > thead > tr > th.success,
-.table > tbody > tr > th.success,
-.table > tfoot > tr > th.success,
-.table > thead > tr.success > td,
-.table > tbody > tr.success > td,
-.table > tfoot > tr.success > td,
-.table > thead > tr.success > th,
-.table > tbody > tr.success > th,
-.table > tfoot > tr.success > th {
+.table>thead>tr>td.success,
+.table>tbody>tr>td.success,
+.table>tfoot>tr>td.success,
+.table>thead>tr>th.success,
+.table>tbody>tr>th.success,
+.table>tfoot>tr>th.success,
+.table>thead>tr.success>td,
+.table>tbody>tr.success>td,
+.table>tfoot>tr.success>td,
+.table>thead>tr.success>th,
+.table>tbody>tr.success>th,
+.table>tfoot>tr.success>th {
     background-color: rgba(139, 195, 74, 0.1);
 }
 
-.table-hover > tbody > tr > td.success:hover,
-.table-hover > tbody > tr > th.success:hover,
-.table-hover > tbody > tr.success:hover > td,
-.table-hover > tbody > tr:hover > .success,
-.table-hover > tbody > tr.success:hover > th {
+.table-hover>tbody>tr>td.success:hover,
+.table-hover>tbody>tr>th.success:hover,
+.table-hover>tbody>tr.success:hover>td,
+.table-hover>tbody>tr:hover>.success,
+.table-hover>tbody>tr.success:hover>th {
     background-color: rgba(126, 183, 61, 0.1);
 }
 
-.table > thead > tr > td.info,
-.table > tbody > tr > td.info,
-.table > tfoot > tr > td.info,
-.table > thead > tr > th.info,
-.table > tbody > tr > th.info,
-.table > tfoot > tr > th.info,
-.table > thead > tr.info > td,
-.table > tbody > tr.info > td,
-.table > tfoot > tr.info > td,
-.table > thead > tr.info > th,
-.table > tbody > tr.info > th,
-.table > tfoot > tr.info > th {
+.table>thead>tr>td.info,
+.table>tbody>tr>td.info,
+.table>tfoot>tr>td.info,
+.table>thead>tr>th.info,
+.table>tbody>tr>th.info,
+.table>tfoot>tr>th.info,
+.table>thead>tr.info>td,
+.table>tbody>tr.info>td,
+.table>tfoot>tr.info>td,
+.table>thead>tr.info>th,
+.table>tbody>tr.info>th,
+.table>tfoot>tr.info>th {
     background-color: rgba(3, 169, 244, 0.1);
 }
 
-.table-hover > tbody > tr > td.info:hover,
-.table-hover > tbody > tr > th.info:hover,
-.table-hover > tbody > tr.info:hover > td,
-.table-hover > tbody > tr:hover > .info,
-.table-hover > tbody > tr.info:hover > th {
+.table-hover>tbody>tr>td.info:hover,
+.table-hover>tbody>tr>th.info:hover,
+.table-hover>tbody>tr.info:hover>td,
+.table-hover>tbody>tr:hover>.info,
+.table-hover>tbody>tr.info:hover>th {
     background-color: rgba(3, 152, 219, 0.1);
 }
 
-.table > thead > tr > td.warning,
-.table > tbody > tr > td.warning,
-.table > tfoot > tr > td.warning,
-.table > thead > tr > th.warning,
-.table > tbody > tr > th.warning,
-.table > tfoot > tr > th.warning,
-.table > thead > tr.warning > td,
-.table > tbody > tr.warning > td,
-.table > tfoot > tr.warning > td,
-.table > thead > tr.warning > th,
-.table > tbody > tr.warning > th,
-.table > tfoot > tr.warning > th {
+.table>thead>tr>td.warning,
+.table>tbody>tr>td.warning,
+.table>tfoot>tr>td.warning,
+.table>thead>tr>th.warning,
+.table>tbody>tr>th.warning,
+.table>tfoot>tr>th.warning,
+.table>thead>tr.warning>td,
+.table>tbody>tr.warning>td,
+.table>tfoot>tr.warning>td,
+.table>thead>tr.warning>th,
+.table>tbody>tr.warning>th,
+.table>tfoot>tr.warning>th {
     background-color: rgba(255, 152, 0, 0.1);
 }
 
-.table-hover > tbody > tr > td.warning:hover,
-.table-hover > tbody > tr > th.warning:hover,
-.table-hover > tbody > tr.warning:hover > td,
-.table-hover > tbody > tr:hover > .warning,
-.table-hover > tbody > tr.warning:hover > th {
+.table-hover>tbody>tr>td.warning:hover,
+.table-hover>tbody>tr>th.warning:hover,
+.table-hover>tbody>tr.warning:hover>td,
+.table-hover>tbody>tr:hover>.warning,
+.table-hover>tbody>tr.warning:hover>th {
     background-color: rgba(230, 137, 0, 0.1);
 }
 
-.table > thead > tr > td.danger,
-.table > tbody > tr > td.danger,
-.table > tfoot > tr > td.danger,
-.table > thead > tr > th.danger,
-.table > tbody > tr > th.danger,
-.table > tfoot > tr > th.danger,
-.table > thead > tr.danger > td,
-.table > tbody > tr.danger > td,
-.table > tfoot > tr.danger > td,
-.table > thead > tr.danger > th,
-.table > tbody > tr.danger > th,
-.table > tfoot > tr.danger > th {
+.table>thead>tr>td.danger,
+.table>tbody>tr>td.danger,
+.table>tfoot>tr>td.danger,
+.table>thead>tr>th.danger,
+.table>tbody>tr>th.danger,
+.table>tfoot>tr>th.danger,
+.table>thead>tr.danger>td,
+.table>tbody>tr.danger>td,
+.table>tfoot>tr.danger>td,
+.table>thead>tr.danger>th,
+.table>tbody>tr.danger>th,
+.table>tfoot>tr.danger>th {
     background-color: rgba(233, 30, 99, 0.1);
 }
 
-.table-hover > tbody > tr > td.danger:hover,
-.table-hover > tbody > tr > th.danger:hover,
-.table-hover > tbody > tr.danger:hover > td,
-.table-hover > tbody > tr:hover > .danger,
-.table-hover > tbody > tr.danger:hover > th {
+.table-hover>tbody>tr>td.danger:hover,
+.table-hover>tbody>tr>th.danger:hover,
+.table-hover>tbody>tr.danger:hover>td,
+.table-hover>tbody>tr:hover>.danger,
+.table-hover>tbody>tr.danger:hover>th {
     background-color: rgba(216, 21, 88, 0.1);
 }
 
@@ -2043,46 +1873,40 @@ table th[class*="col-"] {
         -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 1px solid #ddd;
     }
-
-    .table-responsive > .table {
+    .table-responsive>.table {
         margin-bottom: 0;
     }
-
-    .table-responsive > .table > thead > tr > th,
-    .table-responsive > .table > tbody > tr > th,
-    .table-responsive > .table > tfoot > tr > th,
-    .table-responsive > .table > thead > tr > td,
-    .table-responsive > .table > tbody > tr > td,
-    .table-responsive > .table > tfoot > tr > td {
+    .table-responsive>.table>thead>tr>th,
+    .table-responsive>.table>tbody>tr>th,
+    .table-responsive>.table>tfoot>tr>th,
+    .table-responsive>.table>thead>tr>td,
+    .table-responsive>.table>tbody>tr>td,
+    .table-responsive>.table>tfoot>tr>td {
         white-space: nowrap;
     }
-
-    .table-responsive > .table-bordered {
+    .table-responsive>.table-bordered {
         border: 0;
     }
-
-    .table-responsive > .table-bordered > thead > tr > th:first-child,
-    .table-responsive > .table-bordered > tbody > tr > th:first-child,
-    .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-    .table-responsive > .table-bordered > thead > tr > td:first-child,
-    .table-responsive > .table-bordered > tbody > tr > td:first-child,
-    .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    .table-responsive>.table-bordered>thead>tr>th:first-child,
+    .table-responsive>.table-bordered>tbody>tr>th:first-child,
+    .table-responsive>.table-bordered>tfoot>tr>th:first-child,
+    .table-responsive>.table-bordered>thead>tr>td:first-child,
+    .table-responsive>.table-bordered>tbody>tr>td:first-child,
+    .table-responsive>.table-bordered>tfoot>tr>td:first-child {
         border-left: 0;
     }
-
-    .table-responsive > .table-bordered > thead > tr > th:last-child,
-    .table-responsive > .table-bordered > tbody > tr > th:last-child,
-    .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-    .table-responsive > .table-bordered > thead > tr > td:last-child,
-    .table-responsive > .table-bordered > tbody > tr > td:last-child,
-    .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    .table-responsive>.table-bordered>thead>tr>th:last-child,
+    .table-responsive>.table-bordered>tbody>tr>th:last-child,
+    .table-responsive>.table-bordered>tfoot>tr>th:last-child,
+    .table-responsive>.table-bordered>thead>tr>td:last-child,
+    .table-responsive>.table-bordered>tbody>tr>td:last-child,
+    .table-responsive>.table-bordered>tfoot>tr>td:last-child {
         border-right: 0;
     }
-
-    .table-responsive > .table-bordered > tbody > tr:last-child > th,
-    .table-responsive > .table-bordered > tfoot > tr:last-child > th,
-    .table-responsive > .table-bordered > tbody > tr:last-child > td,
-    .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    .table-responsive>.table-bordered>tbody>tr:last-child>th,
+    .table-responsive>.table-bordered>tfoot>tr:last-child>th,
+    .table-responsive>.table-bordered>tbody>tr:last-child>td,
+    .table-responsive>.table-bordered>tfoot>tr:last-child>td {
         border-bottom: 0;
     }
 }
@@ -2194,7 +2018,7 @@ fieldset[disabled] a.btn {
 
 .btn-default:active,
 .btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.open>.dropdown-toggle.btn-default {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -2202,13 +2026,13 @@ fieldset[disabled] a.btn {
 
 .btn-default:active:hover,
 .btn-default.active:hover,
-.open > .dropdown-toggle.btn-default:hover,
+.open>.dropdown-toggle.btn-default:hover,
 .btn-default:active:focus,
 .btn-default.active:focus,
-.open > .dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:focus,
 .btn-default:active.focus,
 .btn-default.active.focus,
-.open > .dropdown-toggle.btn-default.focus {
+.open>.dropdown-toggle.btn-default.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -2216,7 +2040,7 @@ fieldset[disabled] a.btn {
 
 .btn-default:active,
 .btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.open>.dropdown-toggle.btn-default {
     background-image: none;
 }
 
@@ -2259,7 +2083,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -2267,13 +2091,13 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:active:hover,
 .btn-primary.active:hover,
-.open > .dropdown-toggle.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary:hover,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
-.open > .dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:focus,
 .btn-primary:active.focus,
 .btn-primary.active.focus,
-.open > .dropdown-toggle.btn-primary.focus {
+.open>.dropdown-toggle.btn-primary.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -2281,7 +2105,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     background-image: none;
 }
 
@@ -2324,7 +2148,7 @@ fieldset[disabled] .btn-primary.focus {
 
 .btn-success:active,
 .btn-success.active,
-.open > .dropdown-toggle.btn-success {
+.open>.dropdown-toggle.btn-success {
     color: #8bc34a;
     background-color: rgba(0, 0, 0, 0);
     border-color: #6c9c34;
@@ -2332,13 +2156,13 @@ fieldset[disabled] .btn-primary.focus {
 
 .btn-success:active:hover,
 .btn-success.active:hover,
-.open > .dropdown-toggle.btn-success:hover,
+.open>.dropdown-toggle.btn-success:hover,
 .btn-success:active:focus,
 .btn-success.active:focus,
-.open > .dropdown-toggle.btn-success:focus,
+.open>.dropdown-toggle.btn-success:focus,
 .btn-success:active.focus,
 .btn-success.active.focus,
-.open > .dropdown-toggle.btn-success.focus {
+.open>.dropdown-toggle.btn-success.focus {
     color: #8bc34a;
     background-color: rgba(0, 0, 0, 0);
     border-color: #496a23;
@@ -2346,7 +2170,7 @@ fieldset[disabled] .btn-primary.focus {
 
 .btn-success:active,
 .btn-success.active,
-.open > .dropdown-toggle.btn-success {
+.open>.dropdown-toggle.btn-success {
     background-image: none;
 }
 
@@ -2389,7 +2213,7 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info:active,
 .btn-info.active,
-.open > .dropdown-toggle.btn-info {
+.open>.dropdown-toggle.btn-info {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -2397,13 +2221,13 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info:active:hover,
 .btn-info.active:hover,
-.open > .dropdown-toggle.btn-info:hover,
+.open>.dropdown-toggle.btn-info:hover,
 .btn-info:active:focus,
 .btn-info.active:focus,
-.open > .dropdown-toggle.btn-info:focus,
+.open>.dropdown-toggle.btn-info:focus,
 .btn-info:active.focus,
 .btn-info.active.focus,
-.open > .dropdown-toggle.btn-info.focus {
+.open>.dropdown-toggle.btn-info.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -2411,7 +2235,7 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info:active,
 .btn-info.active,
-.open > .dropdown-toggle.btn-info {
+.open>.dropdown-toggle.btn-info {
     background-image: none;
 }
 
@@ -2454,7 +2278,7 @@ fieldset[disabled] .btn-info.focus {
 
 .btn-warning:active,
 .btn-warning.active,
-.open > .dropdown-toggle.btn-warning {
+.open>.dropdown-toggle.btn-warning {
     color: #ff9800;
     background-color: rgba(0, 0, 0, 0);
     border-color: #c27400;
@@ -2462,13 +2286,13 @@ fieldset[disabled] .btn-info.focus {
 
 .btn-warning:active:hover,
 .btn-warning.active:hover,
-.open > .dropdown-toggle.btn-warning:hover,
+.open>.dropdown-toggle.btn-warning:hover,
 .btn-warning:active:focus,
 .btn-warning.active:focus,
-.open > .dropdown-toggle.btn-warning:focus,
+.open>.dropdown-toggle.btn-warning:focus,
 .btn-warning:active.focus,
 .btn-warning.active.focus,
-.open > .dropdown-toggle.btn-warning.focus {
+.open>.dropdown-toggle.btn-warning.focus {
     color: #ff9800;
     background-color: rgba(0, 0, 0, 0);
     border-color: #804c00;
@@ -2476,7 +2300,7 @@ fieldset[disabled] .btn-info.focus {
 
 .btn-warning:active,
 .btn-warning.active,
-.open > .dropdown-toggle.btn-warning {
+.open>.dropdown-toggle.btn-warning {
     background-image: none;
 }
 
@@ -2519,7 +2343,7 @@ fieldset[disabled] .btn-warning.focus {
 
 .btn-danger:active,
 .btn-danger.active,
-.open > .dropdown-toggle.btn-danger {
+.open>.dropdown-toggle.btn-danger {
     color: #e91e63;
     background-color: rgba(0, 0, 0, 0);
     border-color: #b8124a;
@@ -2527,13 +2351,13 @@ fieldset[disabled] .btn-warning.focus {
 
 .btn-danger:active:hover,
 .btn-danger.active:hover,
-.open > .dropdown-toggle.btn-danger:hover,
+.open>.dropdown-toggle.btn-danger:hover,
 .btn-danger:active:focus,
 .btn-danger.active:focus,
-.open > .dropdown-toggle.btn-danger:focus,
+.open>.dropdown-toggle.btn-danger:focus,
 .btn-danger:active.focus,
 .btn-danger.active.focus,
-.open > .dropdown-toggle.btn-danger.focus {
+.open>.dropdown-toggle.btn-danger.focus {
     color: #e91e63;
     background-color: rgba(0, 0, 0, 0);
     border-color: #7b0c32;
@@ -2541,7 +2365,7 @@ fieldset[disabled] .btn-warning.focus {
 
 .btn-danger:active,
 .btn-danger.active,
-.open > .dropdown-toggle.btn-danger {
+.open>.dropdown-toggle.btn-danger {
     background-image: none;
 }
 
@@ -2627,7 +2451,7 @@ fieldset[disabled] .btn-link:focus {
     width: 100%;
 }
 
-.btn-block + .btn-block {
+.btn-block+.btn-block {
     margin-top: 5px;
 }
 
@@ -2653,12 +2477,12 @@ input[type="button"].btn-block {
     font-weight: bold;
 }
 
-.alert > p,
-.alert > ul {
+.alert>p,
+.alert>ul {
     margin-bottom: 0;
 }
 
-.alert > p + p {
+.alert>p+p {
     margin-top: 5px;
 }
 
@@ -2744,8 +2568,8 @@ input[type="button"].btn-block {
     transition: border 0.2s ease-in-out;
 }
 
-.thumbnail > img,
-.thumbnail a > img {
+.thumbnail>img,
+.thumbnail a>img {
     margin-left: auto;
     margin-right: auto;
 }
@@ -2879,15 +2703,12 @@ a.thumbnail.active {
     .visible-xs {
         display: block !important;
     }
-
     table.visible-xs {
         display: table !important;
     }
-
     tr.visible-xs {
         display: table-row !important;
     }
-
     th.visible-xs,
     td.visible-xs {
         display: table-cell !important;
@@ -2916,15 +2737,12 @@ a.thumbnail.active {
     .visible-sm {
         display: block !important;
     }
-
     table.visible-sm {
         display: table !important;
     }
-
     tr.visible-sm {
         display: table-row !important;
     }
-
     th.visible-sm,
     td.visible-sm {
         display: table-cell !important;
@@ -2953,15 +2771,12 @@ a.thumbnail.active {
     .visible-md {
         display: block !important;
     }
-
     table.visible-md {
         display: table !important;
     }
-
     tr.visible-md {
         display: table-row !important;
     }
-
     th.visible-md,
     td.visible-md {
         display: table-cell !important;
@@ -2990,15 +2805,12 @@ a.thumbnail.active {
     .visible-lg {
         display: block !important;
     }
-
     table.visible-lg {
         display: table !important;
     }
-
     tr.visible-lg {
         display: table-row !important;
     }
-
     th.visible-lg,
     td.visible-lg {
         display: table-cell !important;
@@ -3055,15 +2867,12 @@ a.thumbnail.active {
     .visible-print {
         display: block !important;
     }
-
     table.visible-print {
         display: table !important;
     }
-
     tr.visible-print {
         display: table-row !important;
     }
-
     th.visible-print,
     td.visible-print {
         display: table-cell !important;
@@ -3208,16 +3017,16 @@ a.thumbnail.active {
     border-top: 1px solid #f5f5f5;
 }
 
-.modal-footer .btn + .btn {
+.modal-footer .btn+.btn {
     margin-left: 5px;
     margin-bottom: 0;
 }
 
-.modal-footer .btn-group .btn + .btn {
+.modal-footer .btn-group .btn+.btn {
     margin-left: -1px;
 }
 
-.modal-footer .btn-block + .btn-block {
+.modal-footer .btn-block+.btn-block {
     margin-left: 0;
 }
 
@@ -3234,12 +3043,10 @@ a.thumbnail.active {
         width: 600px;
         margin: 30px auto;
     }
-
     .modal-content {
         -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
-
     .modal-sm {
         width: 300px;
     }
@@ -3252,7 +3059,9 @@ a.thumbnail.active {
 }
 
 /* core.less */
+
 /** Page layout CSS starts **/
+
 .layout-option-noheader #page-header,
 .layout-option-nonavbar #page-navbar,
 .layout-option-nofooter #page-footer,
@@ -3262,6 +3071,7 @@ a.thumbnail.active {
 }
 
 /** Page layout CSS ends **/
+
 .dir-ltr,
 .mdl-left {
     text-align: left;
@@ -3350,6 +3160,7 @@ a.autolink.glossary:hover {
 }
 
 /* Block which is hidden if javascript enabled, prevents fickering visible when JS from footer used! */
+
 .collapsibleregioncaption {
     white-space: nowrap;
 }
@@ -3446,6 +3257,7 @@ img.resize {
 }
 
 /* Icon styles */
+
 img.icon {
     height: 16px;
     vertical-align: text-bottom;
@@ -3592,6 +3404,7 @@ form.popupform div {
 }
 
 /** The 1-pixel padding is there to avoid phantom scroll bars on OS X (FF, Safari and Chrome)**/
+
 .no-overflow {
     overflow: auto;
     padding-bottom: 1px;
@@ -3601,7 +3414,7 @@ form.popupform div {
     overflow: visible;
 }
 
-.no-overflow > .generaltable {
+.no-overflow>.generaltable {
     margin-bottom: 0;
 }
 
@@ -3895,6 +3708,7 @@ table.mod_index {
 /**
 * Completion progress report
 */
+
 .completion-expired {
     background: rgba(233, 30, 99, 0.1);
 }
@@ -3925,6 +3739,7 @@ table.mod_index {
 /**
 * Web Service
 */
+
 #webservice-doc-generator td {
     text-align: left;
     border: 0 solid black;
@@ -3933,6 +3748,7 @@ table.mod_index {
 /**
 * Smart Select Element
 */
+
 .smartselect {
     position: absolute;
 }
@@ -3991,6 +3807,7 @@ table.mod_index {
 }
 
 /** Spanning mode */
+
 .smartselect.spanningmenu .smartselect_submenu {
     position: absolute;
     top: -1px;
@@ -4007,6 +3824,7 @@ table.mod_index {
 }
 
 /** Compact mode */
+
 .smartselect.compactmenu .smartselect_submenu {
     position: relative;
     margin: 2px -3px;
@@ -4029,13 +3847,14 @@ table.mod_index {
     z-index: 1020;
 }
 
-.smartselect.compactmenu .smartselect_submenuitem:hover > .smartselect_menuitem_label {
+.smartselect.compactmenu .smartselect_submenuitem:hover>.smartselect_menuitem_label {
     font-weight: bold;
 }
 
 /**
 * Registration
 */
+
 #page-admin-registration-register .registration_textfield {
     width: 300px;
 }
@@ -4126,6 +3945,7 @@ table.mod_index {
 }
 
 /* Audio player size in 'block' mode (can only change width, height is hardcoded in JS) */
+
 .resourcecontent .mediaplugin_mp3 object {
     height: 25px;
     width: 600px;
@@ -4136,11 +3956,13 @@ table.mod_index {
 }
 
 /** Large resource images should avoid hidden overflow **/
+
 .resourceimage {
     max-width: 100%;
 }
 
 /* Audio player size in 'inline' mode (can only change width, as above) */
+
 .mediaplugin_mp3 object {
     height: 15px;
     width: 300px;
@@ -4151,6 +3973,7 @@ audio.mediaplugin_html5audio {
 }
 
 /* TinyMCE moodle media preview frame should not have padding */
+
 .core_media_preview.pagelayout-embedded #content {
     padding: 0;
 }
@@ -4185,6 +4008,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Moodle Dialogue Settings (moodle-core-dialogue)  */
+
 .moodle-dialogue-base .moodle-dialogue-lightbox {
     background-color: #fff;
     opacity: 0.8;
@@ -4363,16 +4187,16 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
     margin-top: 0;
 }
 
-.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn + .btn {
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn+.btn {
     margin-left: 5px;
     margin-bottom: 0;
 }
 
-.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn-group .btn + .btn {
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn-group .btn+.btn {
     margin-left: -1px;
 }
 
-.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn-block + .btn-block {
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-content .moodle-dialogue-ft .btn-block+.btn-block {
     margin-left: 0;
 }
 
@@ -4438,6 +4262,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Apply a default max-height on tooltip text */
+
 .moodle-dialogue .tooltiptext {
     max-height: 300px;
 }
@@ -4456,7 +4281,9 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 * This CSS belong to the chooser dialogue which should work both with, and
 * without javascript enabled
 */
+
 /* Hide the dialog and it's title */
+
 .chooserdialoguebody,
 .choosertitle {
     display: none;
@@ -4477,6 +4304,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Center the submit buttons within the area */
+
 .choosercontainer #chooseform .submitbuttons {
     margin: 0.7em 0;
     text-align: center;
@@ -4488,12 +4316,14 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Various settings for the options area */
+
 .choosercontainer #chooseform .options {
     position: relative;
     border-bottom: 1px solid #f5f5f5;
 }
 
 /* Only set these options if we're showing the js container */
+
 .jsenabled .choosercontainer #chooseform .alloptions {
     overflow-x: hidden;
     overflow-y: auto;
@@ -4502,6 +4332,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Settings for option rows and option subtypes */
+
 .choosercontainer #chooseform .moduletypetitle,
 .choosercontainer #chooseform .option,
 .choosercontainer #chooseform .nonoption {
@@ -4558,6 +4389,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* The instruction/help area */
+
 .jsenabled .choosercontainer #chooseform .instruction,
 .jsenabled .choosercontainer #chooseform .typesummary {
     display: none;
@@ -4574,6 +4406,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Selected option settings */
+
 .jsenabled .choosercontainer #chooseform .instruction,
 .choosercontainer #chooseform .selected .typesummary {
     display: block;
@@ -4588,6 +4421,7 @@ body#page-lib-editor-tinymce-plugins-moodlemedia-preview {
 }
 
 /* Form element: listing */
+
 .formlistingradio {
     padding-bottom: 25px;
     padding-right: 10px;
@@ -4675,9 +4509,10 @@ body.jsenabled .formlisting {
 }
 
 /** Action menu component styles **/
+
 .moodle-actionmenu,
-.moodle-actionmenu > ul,
-.moodle-actionmenu > ul > li {
+.moodle-actionmenu>ul,
+.moodle-actionmenu>ul>li {
     display: inline-block;
 }
 
@@ -4794,7 +4629,7 @@ body.jsenabled .formlisting {
     margin: 4px 4px 4px -24px;
 }
 
-.moodle-actionmenu[data-enhanced].show .menu > li {
+.moodle-actionmenu[data-enhanced].show .menu>li {
     display: block;
 }
 
@@ -4906,21 +4741,12 @@ a.disabled {
 }
 
 .progress .bar {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#fgroup_id_sdays > .fgroup > span,
-#fgroup_id_resetgroup > .fgroup > span,
-#fgroup_id_resetallgroup > .fgroup > span {
+#fgroup_id_sdays>.fgroup>span,
+#fgroup_id_resetgroup>.fgroup>span,
+#fgroup_id_resetallgroup>.fgroup>span {
     display: inline-block;
 }
 
@@ -4931,6 +4757,7 @@ a.disabled {
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 /**
  * Main swatch - includes all snap swatch files.
  *
@@ -4938,6 +4765,7 @@ a.disabled {
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 /**
  * Moodle blocks.
  *
@@ -4945,13 +4773,13 @@ a.disabled {
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 @media screen and (min-width: 768px) {
     #moodle-blocks {
         column-count: 2;
         column-gap: 5%;
         column-width: 45%;
     }
-
     #moodle-blocks .block:not(.block_settings) {
         display: inline-block;
         width: 100%;
@@ -4972,6 +4800,7 @@ a.skip-block {
 }
 
 /* remove block actions, always display blocks when displayed */
+
 .block_action {
     display: none;
 }
@@ -4981,7 +4810,9 @@ a.skip-block {
 }
 
 /* hide blocks by default */
+
 /* workaround for participant list pretending to be course view MDL-50492 */
+
 #moodle-blocks,
 .path-user.path-course.path-course-view.editing #moodle-blocks {
     visibility: hidden;
@@ -4990,6 +4821,7 @@ a.skip-block {
 }
 
 /* show blocks on front page, quiz, book, cal etc and when clicked */
+
 #page-admin-index #moodle-blocks,
 #page-mod-quiz-attempt #moodle-blocks,
 #page-mod-quiz-review #moodle-blocks,
@@ -5009,6 +4841,7 @@ a.skip-block {
 }
 
 /* Some mods have faux blocks - but we want to hide all the other blocks */
+
 #page-mod-lesson-view #moodle-blocks,
 #page-mod-book-view #moodle-blocks,
 #page-mod-quiz-review #moodle-blocks,
@@ -5064,19 +4897,21 @@ body.path-site .block.block_settings {
 }
 
 /* Reset margin on setting block. */
+
 .block_settings .block_tree ul {
     margin-left: 0;
     padding-left: 20px;
 }
 
 /* icons in blocks */
+
 .block_navigation .block_tree .tree_item.branch,
 .block_settings .block_tree .tree_item.branch {
     background-position: 0 0.4em;
 }
 
-.block_navigation .block_tree li.item_with_icon > p img,
-.block_settings .block_tree li.item_with_icon > p img {
+.block_navigation .block_tree li.item_with_icon>p img,
+.block_settings .block_tree li.item_with_icon>p img {
     top: 0.15em;
     opacity: 0.7;
     position: relative;
@@ -5096,6 +4931,7 @@ body.path-site .block.block_settings {
 }
 
 /* Calandar */
+
 .eventtitle {
     font-size: 1em;
 }
@@ -5115,6 +4951,7 @@ body.path-site .block.block_settings {
 }
 
 /* ADMIN BLOCK */
+
 #page-content .block_settings {
     width: 320px;
     height: 0;
@@ -5162,6 +4999,7 @@ body.path-site .block.block_settings {
 }
 
 /* BLOCKS EDITING */
+
 .block .moodle-actionmenu[data-enhanced].show .menu,
 .block .moodle-actionmenu[data-enhanced].show .menu[style] {
     left: 0 !important;
@@ -5172,6 +5010,7 @@ body.path-site .block.block_settings {
 }
 
 /* Hide header when editing front page block. */
+
 #page-site-index.pagelayout-admin #page-header {
     display: none;
 }
@@ -5187,6 +5026,7 @@ body.path-site .block.block_settings {
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 html {
     -webkit-font-smoothing: auto !important;
 }
@@ -5311,7 +5151,7 @@ table.boxwidthwide {
     margin: 1em 0;
 }
 
-#page-login-index .signuppanel > h2 {
+#page-login-index .signuppanel>h2 {
     display: none;
 }
 
@@ -5341,6 +5181,7 @@ table.boxwidthwide {
 }
 
 /* animations */
+
 @keyframes snap-drop {
     0% {
         transform: matrix(1, 0, 0, 1, 0, -600);
@@ -5403,7 +5244,7 @@ select {
 
 select:disabled,
 input:disabled,
-input:disabled + label {
+input:disabled+label {
     opacity: 0.5;
 }
 
@@ -5422,16 +5263,7 @@ body {
 table,
 .floater .cell {
     width: 100%;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -5453,7 +5285,7 @@ table img {
     min-width: 12px;
 }
 
-table.results td.graph > img {
+table.results td.graph>img {
     min-width: 0;
 }
 
@@ -5493,7 +5325,7 @@ img.icon {
     vertical-align: middle;
 }
 
-.mediaplugin_videojs > div {
+.mediaplugin_videojs>div {
     max-width: none !important;
 }
 
@@ -5503,7 +5335,7 @@ img.icon {
     position: relative;
 }
 
-.media-responsive > *:not(video):first-child {
+.media-responsive>*:not(video):first-child {
     position: absolute !important;
     top: 0 !important;
     bottom: 0 !important;
@@ -5536,6 +5368,7 @@ video {
 }
 
 /* mdl hide stuff icon - hide in bs has different meaning*/
+
 img.icon.hide {
     display: inline-block !important;
 }
@@ -5609,33 +5442,24 @@ select,
 .progress .bar,
 .progress-bar,
 .yui-dt-paginator {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media screen and (min-width: 768px) {
-    .nav.nav-justified > li > a {
+    .nav.nav-justified>li>a {
         padding-left: 0;
         padding-right: 0;
         white-space: nowrap;
     }
 }
 
-.path-grade ul.nav.nav-tabs + ul.nav.nav-tabs {
+.path-grade ul.nav.nav-tabs+ul.nav.nav-tabs {
     margin-bottom: 1em;
 }
 
-.path-grade ul.nav.nav-tabs + ul.nav.nav-tabs li.disabled > a,
-.path-grade ul.nav.nav-tabs + ul.nav.nav-tabs li.disabled > a:hover,
-.path-grade ul.nav.nav-tabs + ul.nav.nav-tabs li.disabled > a:focus {
+.path-grade ul.nav.nav-tabs+ul.nav.nav-tabs li.disabled>a,
+.path-grade ul.nav.nav-tabs+ul.nav.nav-tabs li.disabled>a:hover,
+.path-grade ul.nav.nav-tabs+ul.nav.nav-tabs li.disabled>a:focus {
     color: #565656;
     background-color: #fff;
     border: 1px solid #dadada;
@@ -5657,11 +5481,11 @@ button#local-joulegrader-preview-button,
 button.atto_equation_submit,
 a.yui3-button,
 .yui-button button,
-.felement.ftext input + button,
+.felement.ftext input+button,
 .header-button-group .btn,
 .btn.btn-primary,
 .btn.btn-default,
-.button-group > button,
+.button-group>button,
 input.form-submit,
 input[type="button"],
 input[type="submit"],
@@ -5669,18 +5493,9 @@ button[type="submit"],
 .moodle-dialogue-content button,
 button#restrictbygroup,
 button#livelogs-pause-button,
-#page-admin-tool-monitor-managerules a > button,
+#page-admin-tool-monitor-managerules a>button,
 input[type="reset"] {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
 }
 
@@ -5692,11 +5507,11 @@ button#local-joulegrader-preview-button:hover,
 button.atto_equation_submit:hover,
 a.yui3-button:hover,
 .yui-button button:hover,
-.felement.ftext input + button:hover,
+.felement.ftext input+button:hover,
 .header-button-group .btn:hover,
 .btn.btn-primary:hover,
 .btn.btn-default:hover,
-.button-group > button:hover,
+.button-group>button:hover,
 input.form-submit:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
@@ -5704,7 +5519,7 @@ button[type="submit"]:hover,
 .moodle-dialogue-content button:hover,
 button#restrictbygroup:hover,
 button#livelogs-pause-button:hover,
-#page-admin-tool-monitor-managerules a > button:hover,
+#page-admin-tool-monitor-managerules a>button:hover,
 input[type="reset"]:hover,
 .section-modchooser-text:focus,
 #changenumsections .increase-sections:focus,
@@ -5714,11 +5529,11 @@ button#local-joulegrader-preview-button:focus,
 button.atto_equation_submit:focus,
 a.yui3-button:focus,
 .yui-button button:focus,
-.felement.ftext input + button:focus,
+.felement.ftext input+button:focus,
 .header-button-group .btn:focus,
 .btn.btn-primary:focus,
 .btn.btn-default:focus,
-.button-group > button:focus,
+.button-group>button:focus,
 input.form-submit:focus,
 input[type="button"]:focus,
 input[type="submit"]:focus,
@@ -5726,7 +5541,7 @@ button[type="submit"]:focus,
 .moodle-dialogue-content button:focus,
 button#restrictbygroup:focus,
 button#livelogs-pause-button:focus,
-#page-admin-tool-monitor-managerules a > button:focus,
+#page-admin-tool-monitor-managerules a>button:focus,
 input[type="reset"]:focus {
     text-decoration: none;
     color: #fff;
@@ -5798,7 +5613,7 @@ input[type="reset"]:focus {
     background: #fff;
 }
 
-.btn-group > button + button {
+.btn-group>button+button {
     margin-left: 1em;
 }
 
@@ -5893,7 +5708,7 @@ fieldset[disabled] a#page-site-index .section-modchooser-link .section-modchoose
 
 #page-site-index .section-modchooser-link .section-modchooser-text:active,
 #page-site-index .section-modchooser-link .section-modchooser-text.active,
-.open > .dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text {
+.open>.dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -5901,13 +5716,13 @@ fieldset[disabled] a#page-site-index .section-modchooser-link .section-modchoose
 
 #page-site-index .section-modchooser-link .section-modchooser-text:active:hover,
 #page-site-index .section-modchooser-link .section-modchooser-text.active:hover,
-.open > .dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text:hover,
+.open>.dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text:hover,
 #page-site-index .section-modchooser-link .section-modchooser-text:active:focus,
 #page-site-index .section-modchooser-link .section-modchooser-text.active:focus,
-.open > .dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text:focus,
+.open>.dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text:focus,
 #page-site-index .section-modchooser-link .section-modchooser-text:active.focus,
 #page-site-index .section-modchooser-link .section-modchooser-text.active.focus,
-.open > .dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text.focus {
+.open>.dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -5915,7 +5730,7 @@ fieldset[disabled] a#page-site-index .section-modchooser-link .section-modchoose
 
 #page-site-index .section-modchooser-link .section-modchooser-text:active,
 #page-site-index .section-modchooser-link .section-modchooser-text.active,
-.open > .dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text {
+.open>.dropdown-toggle#page-site-index .section-modchooser-link .section-modchooser-text {
     background-image: none;
 }
 
@@ -6032,12 +5847,12 @@ fieldset[disabled] #page-site-index .section-modchooser-link .section-modchooser
     clear: both;
 }
 
-.snap-media-object > a:focus {
+.snap-media-object>a:focus {
     display: block;
 }
 
-.snap-media-object > a > img,
-.snap-media-object > img {
+.snap-media-object>a>img,
+.snap-media-object>img {
     float: left;
     display: block;
     width: 36px;
@@ -6130,6 +5945,7 @@ fieldset[disabled] #page-site-index .section-modchooser-link .section-modchooser
 Its pointless using a colour to visually show that the message is read as we can already tell this by the fact the
 read button has been removed and the message text is visible
 **/
+
 .message_badge_message.dimmed_text {
     color: #565656;
 }
@@ -6169,6 +5985,7 @@ nav #mr-nav
 footer #moodle-footer
 
  ****************************/
+
 #mr-nav,
 #page-header,
 #region-main,
@@ -6271,6 +6088,7 @@ header#page-header
 		h1 - a hopefully useful name for this page
 
  ****************************/
+
 #page-header {
     padding-top: 4em;
     padding-bottom: 0.5em;
@@ -6293,7 +6111,6 @@ header#page-header
     .breadcrumb li:nth-last-child(n+4) {
         display: none;
     }
-
     .breadcrumb li:nth-last-child(3):before {
         content: "";
         padding: 0;
@@ -6311,9 +6128,10 @@ header#page-header
 				search stuff SHAME
 
  ****************************/
+
 .mast-image .breadcrumb li,
 .mast-image .breadcrumb li:before,
-.mast-image .breadcrumb > li + li:before,
+.mast-image .breadcrumb>li+li:before,
 .mast-image .breadcrumb a,
 .mast-image .breadcrumb a:visited {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
@@ -6344,6 +6162,7 @@ header#page-header
 }
 
 /* SHAME - button to toggle actions, e.g. close */
+
 .snap-action-icon {
     padding: 0.5em;
     font-size: 1.5em;
@@ -6401,7 +6220,7 @@ header#page-header
     margin: 0 auto;
 }
 
-.quickgradingform > .mform {
+.quickgradingform>.mform {
     max-width: none;
 }
 
@@ -6444,7 +6263,7 @@ header#page-header
     margin-right: 20px;
 }
 
-.femptylabel > .fitemtitle {
+.femptylabel>.fitemtitle {
     display: none;
 }
 
@@ -6507,17 +6326,20 @@ header#page-header
 }
 
 /* BOOK MOD FIX */
+
 .path-mod-book .book_toc_numbered {
     font-size: 1em;
 }
 
 /* hide show description option */
+
 #page-mod-book-mod #fitem_id_showdescription,
 #page-mod-page-mod #fitem_id_showdescription {
     display: none;
 }
 
 /* Hide not so useful images and exit book option */
+
 .navimages img,
 .navimages .bookexit {
     display: none;
@@ -6544,6 +6366,7 @@ header#page-header
 }
 
 /* FRONT PAGE ELEMENTS */
+
 #page-site-index #region-main {
     max-width: 100%;
     padding: 0;
@@ -6577,6 +6400,7 @@ BUG:
 mobile safari does not re-calculate vh on viewport change
 http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
 */
+
 @media screen and (min-width: 1200px) {
     #page-site-index #page-header {
         min-height: 87vh;
@@ -6659,6 +6483,7 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
 }
 
 /* FRONT PAGE SITE NEWS */
+
 #page-site-index #site-news-forum {
     margin: 0 auto;
     padding: 0 4% 4em;
@@ -6751,11 +6576,9 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
         margin-bottom: 0;
         display: flex;
     }
-
     .news-article-content {
         max-width: 100%;
     }
-
     .news-article-preview,
     .news-article-image,
     .news-article-inner {
@@ -6763,47 +6586,38 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
         min-height: 300px;
         flex: 1 1 auto;
     }
-
     .news-article-preview p,
     .news-article-image p,
     .news-article-inner p {
         margin: 1em 0;
         display: block;
     }
-
     .news-article-image {
         padding: 0;
     }
-
     .state-expanded .news-article-inner {
         width: 33%;
         order: 1 !important;
     }
-
     .state-expanded .news-article-message {
         width: 67%;
     }
-
     #news-articles div:nth-child(odd) .news-article-preview,
     #news-articles div:nth-child(odd) .news-article-image {
         order: 2;
     }
-
     #news-articles div:nth-child(odd) .news-article-preview p:nth-of-type(2),
     #news-articles div:nth-child(odd) .news-article-image p:nth-of-type(2) {
         text-align: left;
     }
-
     #news-articles div:nth-child(even) .news-article-inner {
         order: 2;
     }
-
     .ie9 #news-articles div:nth-child(even) .news-article-preview,
     .ie9 #news-articles div:nth-child(even) .news-article-image,
     .ie9 #news-articles div:nth-child(even) .news-article-inner {
         float: left;
     }
-
     .ie9 #news-articles div:nth-child(odd) .news-article-preview,
     .ie9 #news-articles div:nth-child(odd) .news-article-image,
     .ie9 #news-articles div:nth-child(odd) .news-article-inner {
@@ -6863,13 +6677,11 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
         vertical-align: top;
         border: 0;
     }
-
     .coursebox .content .summary,
     .coursebox .content .teachers {
         width: 62%;
         float: left;
     }
-
     .coursebox .content .courseimage {
         float: right;
         width: 33%;
@@ -6881,7 +6693,8 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
 }
 
 /* COURE LISTINGS PAGES */
-.course_category_tree .category > .info,
+
+.course_category_tree .category>.info,
 .coursebox .info,
 .coursebox {
     background-color: transparent;
@@ -6896,27 +6709,28 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
 }
 
 /* Calandar */
+
 span.calendar_event_global,
 li.calendar_event_global:before,
-td.calendar_event_global > a {
+td.calendar_event_global>a {
     background-color: #8bc34a;
 }
 
 span.calendar_event_course,
 li.calendar_event_course:before,
-td.calendar_event_course > a {
+td.calendar_event_course>a {
     background-color: salmon;
 }
 
 span.calendar_event_group,
 li.calendar_event_group:before,
-td.calendar_event_group > a {
+td.calendar_event_group>a {
     background-color: #fdd652;
 }
 
 span.calendar_event_user,
 li.calendar_event_user:before,
-td.calendar_event_user > a {
+td.calendar_event_user>a {
     background-color: #03a9f4;
 }
 
@@ -6940,6 +6754,7 @@ li.calendar_event_user:before {
 }
 
 /* Block cals */
+
 .block .minicalendar {
     max-width: 500px;
 }
@@ -6954,7 +6769,7 @@ li.calendar_event_user:before {
     vertical-align: middle;
 }
 
-.block .minicalendar td > a {
+.block .minicalendar td>a {
     border-radius: 100%;
     height: 4em;
     width: 4em;
@@ -6963,11 +6778,11 @@ li.calendar_event_user:before {
     margin: auto;
 }
 
-.block .minicalendar td.hasevent > a {
+.block .minicalendar td.hasevent>a {
     color: #fff;
 }
 
-.block .minicalendar td.today > a {
+.block .minicalendar td.today>a {
     border: 1px solid #dadada;
 }
 
@@ -7036,7 +6851,7 @@ ul.events-underway {
     padding-top: 0.5em;
 }
 
-ul.events-new + ul.events-underway {
+ul.events-new+ul.events-underway {
     padding-top: 0;
 }
 
@@ -7061,16 +6876,7 @@ ul.events-new + ul.events-underway {
 #dateselector-calendar-panel .yui3-calendar-prevmonth-day,
 #dateselector-calendar-panel .yui3-calendar-nextmonth-day,
 #dateselector-calendar-panel .yui3-calendar-weekday {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #565656;
     border-color: #fff;
     text-align: center;
@@ -7135,12 +6941,10 @@ ul.events-new + ul.events-underway {
     #dateselector-calendar-panel .yui3-calendar-base {
         width: 100%;
     }
-
     #dateselector-calendar-panel .yui3-calendar-header-label {
         font-weight: 100;
         font-size: 36px;
     }
-
     #dateselector-calendar-panel .yui3-calendarnav-nextmonth,
     #dateselector-calendar-panel .yui3-calendarnav-prevmonth {
         height: 55px;
@@ -7148,6 +6952,7 @@ ul.events-new + ul.events-underway {
 }
 
 /* USER PROFILE PAGE */
+
 .userprofile .userprofilebox .profilepicture {
     position: relative;
     min-height: 1px;
@@ -7177,6 +6982,7 @@ ul.events-new + ul.events-underway {
 }
 
 /* MESSAGING PAGE */
+
 #message_user_pictures .box.user {
     position: relative;
     min-height: 1px;
@@ -7210,6 +7016,7 @@ ul.events-new + ul.events-underway {
 }
 
 /* Message contaacts list */
+
 .message-contacts {
     list-style: none;
     padding: 0;
@@ -7368,7 +7175,7 @@ fieldset[disabled] a#page-mod-quiz-review .arrow_link {
 
 #page-mod-quiz-review .arrow_link:active,
 #page-mod-quiz-review .arrow_link.active,
-.open > .dropdown-toggle#page-mod-quiz-review .arrow_link {
+.open>.dropdown-toggle#page-mod-quiz-review .arrow_link {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -7376,13 +7183,13 @@ fieldset[disabled] a#page-mod-quiz-review .arrow_link {
 
 #page-mod-quiz-review .arrow_link:active:hover,
 #page-mod-quiz-review .arrow_link.active:hover,
-.open > .dropdown-toggle#page-mod-quiz-review .arrow_link:hover,
+.open>.dropdown-toggle#page-mod-quiz-review .arrow_link:hover,
 #page-mod-quiz-review .arrow_link:active:focus,
 #page-mod-quiz-review .arrow_link.active:focus,
-.open > .dropdown-toggle#page-mod-quiz-review .arrow_link:focus,
+.open>.dropdown-toggle#page-mod-quiz-review .arrow_link:focus,
 #page-mod-quiz-review .arrow_link:active.focus,
 #page-mod-quiz-review .arrow_link.active.focus,
-.open > .dropdown-toggle#page-mod-quiz-review .arrow_link.focus {
+.open>.dropdown-toggle#page-mod-quiz-review .arrow_link.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -7390,7 +7197,7 @@ fieldset[disabled] a#page-mod-quiz-review .arrow_link {
 
 #page-mod-quiz-review .arrow_link:active,
 #page-mod-quiz-review .arrow_link.active,
-.open > .dropdown-toggle#page-mod-quiz-review .arrow_link {
+.open>.dropdown-toggle#page-mod-quiz-review .arrow_link {
     background-image: none;
 }
 
@@ -7472,7 +7279,6 @@ fieldset[disabled] #page-mod-quiz-review .arrow_link.focus {
         width: 100%;
         clear: both;
     }
-
     #page-mod-quiz-edit div.question div.content div.questioncontrols,
     #page-mod-quiz-edit div.question div.content div.points {
         position: relative;
@@ -7519,7 +7325,6 @@ fieldset[disabled] #page-mod-quiz-review .arrow_link.focus {
     .questionbankwindow.block {
         width: 50%;
     }
-
     #page-mod-quiz-edit div.container div.generalbox {
         padding-left: 8%;
         padding-right: 0;
@@ -7576,7 +7381,7 @@ fieldset[disabled] #page-mod-quiz-review .arrow_link.focus {
     font-weight: 300;
 }
 
-.que .info > div {
+.que .info>div {
     display: inline-block;
     font-size: small;
     color: #999;
@@ -7729,27 +7534,22 @@ fieldset[disabled] #page-mod-quiz-review .arrow_link.focus {
     .path-mod-forum .forumheaderlist tbody td.topic {
         width: 100%;
     }
-
     .path-mod-forum .forumheaderlist .picture a {
         display: inline;
     }
-
     .forumheaderlist thead {
         display: none;
     }
-
     .forumheaderlist tbody {
         width: 100%;
         display: block;
     }
-
     .forumheaderlist tbody tr.discussion {
         display: block;
         padding: 1em 0;
         border-bottom: 3px solid #ccc;
         width: 100%;
     }
-
     .forumheaderlist tbody tr td,
     .forumheaderlist td.picture.group {
         display: block;
@@ -7758,49 +7558,39 @@ fieldset[disabled] #page-mod-quiz-review .arrow_link.focus {
         background-color: transparent !important;
         width: 100%;
     }
-
     .forumheaderlist td.topic {
         font-size: 1.3em;
     }
-
     .forumheaderlist td:before {
         font-size: 0.9em;
         color: #999;
         font-weight: bold;
     }
-
     .forumheaderlist td.topic:before {
         content: attr(data-cellname);
     }
-
     .forumheaderlist td.picture:before {
         content: attr(data-cellname);
     }
-
     .forumheaderlist td.replies:before {
         content: attr(data-cellname);
     }
-
     .forumheaderlist td.lastpost:before {
         content: attr(data-cellname);
     }
-
     .forumheaderlist td:before {
         display: inline-block;
         margin-right: 4%;
     }
-
     .forumheaderlist td.author,
     .forumheaderlist td.picture {
         clear: none;
     }
-
     .forumheaderlist td.picture {
         width: 32%;
         display: inline;
         margin-right: 2%;
     }
-
     .forumheaderlist td.author {
         width: 68%;
         display: inline;
@@ -8064,10 +7854,10 @@ fieldset[disabled] a.gradingform_rubric.editor .addcriterion input {
 .gradingform_checklist.editor .additem input.active,
 .gradingform_rubric.editor .addlevel input.active,
 .gradingform_rubric.editor .addcriterion input.active,
-.open > .dropdown-toggle.gradingform_checklist.editor .addgroup input,
-.open > .dropdown-toggle.gradingform_checklist.editor .additem input,
-.open > .dropdown-toggle.gradingform_rubric.editor .addlevel input,
-.open > .dropdown-toggle.gradingform_rubric.editor .addcriterion input {
+.open>.dropdown-toggle.gradingform_checklist.editor .addgroup input,
+.open>.dropdown-toggle.gradingform_checklist.editor .additem input,
+.open>.dropdown-toggle.gradingform_rubric.editor .addlevel input,
+.open>.dropdown-toggle.gradingform_rubric.editor .addcriterion input {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #027fb8;
@@ -8081,10 +7871,10 @@ fieldset[disabled] a.gradingform_rubric.editor .addcriterion input {
 .gradingform_checklist.editor .additem input.active:hover,
 .gradingform_rubric.editor .addlevel input.active:hover,
 .gradingform_rubric.editor .addcriterion input.active:hover,
-.open > .dropdown-toggle.gradingform_checklist.editor .addgroup input:hover,
-.open > .dropdown-toggle.gradingform_checklist.editor .additem input:hover,
-.open > .dropdown-toggle.gradingform_rubric.editor .addlevel input:hover,
-.open > .dropdown-toggle.gradingform_rubric.editor .addcriterion input:hover,
+.open>.dropdown-toggle.gradingform_checklist.editor .addgroup input:hover,
+.open>.dropdown-toggle.gradingform_checklist.editor .additem input:hover,
+.open>.dropdown-toggle.gradingform_rubric.editor .addlevel input:hover,
+.open>.dropdown-toggle.gradingform_rubric.editor .addcriterion input:hover,
 .gradingform_checklist.editor .addgroup input:active:focus,
 .gradingform_checklist.editor .additem input:active:focus,
 .gradingform_rubric.editor .addlevel input:active:focus,
@@ -8093,10 +7883,10 @@ fieldset[disabled] a.gradingform_rubric.editor .addcriterion input {
 .gradingform_checklist.editor .additem input.active:focus,
 .gradingform_rubric.editor .addlevel input.active:focus,
 .gradingform_rubric.editor .addcriterion input.active:focus,
-.open > .dropdown-toggle.gradingform_checklist.editor .addgroup input:focus,
-.open > .dropdown-toggle.gradingform_checklist.editor .additem input:focus,
-.open > .dropdown-toggle.gradingform_rubric.editor .addlevel input:focus,
-.open > .dropdown-toggle.gradingform_rubric.editor .addcriterion input:focus,
+.open>.dropdown-toggle.gradingform_checklist.editor .addgroup input:focus,
+.open>.dropdown-toggle.gradingform_checklist.editor .additem input:focus,
+.open>.dropdown-toggle.gradingform_rubric.editor .addlevel input:focus,
+.open>.dropdown-toggle.gradingform_rubric.editor .addcriterion input:focus,
 .gradingform_checklist.editor .addgroup input:active.focus,
 .gradingform_checklist.editor .additem input:active.focus,
 .gradingform_rubric.editor .addlevel input:active.focus,
@@ -8105,10 +7895,10 @@ fieldset[disabled] a.gradingform_rubric.editor .addcriterion input {
 .gradingform_checklist.editor .additem input.active.focus,
 .gradingform_rubric.editor .addlevel input.active.focus,
 .gradingform_rubric.editor .addcriterion input.active.focus,
-.open > .dropdown-toggle.gradingform_checklist.editor .addgroup input.focus,
-.open > .dropdown-toggle.gradingform_checklist.editor .additem input.focus,
-.open > .dropdown-toggle.gradingform_rubric.editor .addlevel input.focus,
-.open > .dropdown-toggle.gradingform_rubric.editor .addcriterion input.focus {
+.open>.dropdown-toggle.gradingform_checklist.editor .addgroup input.focus,
+.open>.dropdown-toggle.gradingform_checklist.editor .additem input.focus,
+.open>.dropdown-toggle.gradingform_rubric.editor .addlevel input.focus,
+.open>.dropdown-toggle.gradingform_rubric.editor .addcriterion input.focus {
     color: #03a9f4;
     background-color: rgba(0, 0, 0, 0);
     border-color: #015276;
@@ -8122,10 +7912,10 @@ fieldset[disabled] a.gradingform_rubric.editor .addcriterion input {
 .gradingform_checklist.editor .additem input.active,
 .gradingform_rubric.editor .addlevel input.active,
 .gradingform_rubric.editor .addcriterion input.active,
-.open > .dropdown-toggle.gradingform_checklist.editor .addgroup input,
-.open > .dropdown-toggle.gradingform_checklist.editor .additem input,
-.open > .dropdown-toggle.gradingform_rubric.editor .addlevel input,
-.open > .dropdown-toggle.gradingform_rubric.editor .addcriterion input {
+.open>.dropdown-toggle.gradingform_checklist.editor .addgroup input,
+.open>.dropdown-toggle.gradingform_checklist.editor .additem input,
+.open>.dropdown-toggle.gradingform_rubric.editor .addlevel input,
+.open>.dropdown-toggle.gradingform_rubric.editor .addcriterion input {
     background-image: none;
 }
 
@@ -8473,16 +8263,7 @@ fieldset[disabled] .gradingform_rubric.editor .addcriterion input.focus {
 
 .path-blocks-reports .report-title {
     font-weight: normal;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .path-mod-assign #region-main,
@@ -8512,7 +8293,7 @@ fieldset[disabled] .gradingform_rubric.editor .addcriterion input.focus {
 .gradetreebox,
 .gradingtable .no-overflow,
 #page-mod-quiz-report.pagelayout-report .no-overflow,
-.path-admin-roles div[role="main"] > form {
+.path-admin-roles div[role="main"]>form {
     overflow: auto;
 }
 
@@ -8577,7 +8358,7 @@ fieldset[disabled] .gradingform_rubric.editor .addcriterion input.focus {
     padding: 1em 4% 4em;
 }
 
-#notice + .continuebutton {
+#notice+.continuebutton {
     margin-top: -3em;
 }
 
@@ -8702,7 +8483,9 @@ body.hascontinuecancel.path-site #page {
 }
 
 /* moodle dialogues */
+
 /* standard size */
+
 .moodle-dialogue-base .moodle-dialogue {
     min-width: 32%;
     padding: 0;
@@ -8716,6 +8499,7 @@ body.hascontinuecancel.path-site #page {
 }
 
 /* assigning roles /enrol/otherusers.php */
+
 .other-user-manager-panel {
     margin: 0;
     background: none;
@@ -8734,6 +8518,7 @@ body.hascontinuecancel.path-site #page {
 }
 
 /* file picker dropzone */
+
 .ffilemanager .fp-pathbar,
 .form-filemanager .fp-pathbar,
 .ffilemanager .fp-viewbar,
@@ -8804,6 +8589,7 @@ body.hascontinuecancel.path-site #page {
 }
 
 /* file picker dialogue */
+
 #filesskin .file-picker.fp-generallayout {
     width: auto !important;
 }
@@ -8844,7 +8630,6 @@ body.hascontinuecancel.path-site #page {
     .file-picker .fp-repo-area {
         width: 32%;
     }
-
     .file-picker .fp-repo-items {
         width: 68%;
     }
@@ -8865,6 +8650,7 @@ body.hascontinuecancel.path-site #page {
 }
 
 /* add resources and activities dialogue */
+
 .jsenabled .choosercontainer #chooseform .alloptions {
     padding: 0 4%;
 }
@@ -8923,11 +8709,12 @@ body.hascontinuecancel.path-site #page {
     margin-top: 2em;
 }
 
-#site-news-forum + br {
+#site-news-forum+br {
     display: none;
 }
 
 /* Moodle error, reports, all that stuff in the footer */
+
 #page-footer {
     border-top: none;
 }
@@ -8957,7 +8744,7 @@ body.hascontinuecancel.path-site #page {
     background-color: #323232;
 }
 
-.nav-justified + .nav-justified {
+.nav-justified+.nav-justified {
     margin-top: 1em;
 }
 
@@ -8979,6 +8766,7 @@ body.hascontinuecancel.path-site #page {
 spinner, from
 http://css-spinners.com/css/spinner/three-quarters.css
 **/
+
 @keyframes spinner-three-quarters {
     0% {
         transform: rotate(0deg);
@@ -8989,12 +8777,14 @@ http://css-spinners.com/css/spinner/three-quarters.css
 }
 
 /* Styles for old versions of IE */
+
 .spinner-three-quarters {
     font-family: sans-serif;
     font-weight: 100;
 }
 
 /* :not(:required) hides this rule from IE9 and below */
+
 .spinner-three-quarters:not(:required) {
     animation: spinner-three-quarters 1250ms infinite linear;
     transform: translateZ(0);
@@ -9011,24 +8801,24 @@ http://css-spinners.com/css/spinner/three-quarters.css
 }
 
 /** folderview format **/
+
 #page-course-view-folderview.jsenabled #tab_addBlock,
 #page-course-view-folderview .section-navigation .jumpmenu {
     display: none;
 }
 
 /** fix feedback field sizes on mobile devices **/
+
 @media screen and (max-width: 767px) {
-    .mform .fselect > select,
-    .mform .fselectyesno > select,
-    .mform .ftext > input[type="text"],
+    .mform .fselect>select,
+    .mform .fselectyesno>select,
+    .mform .ftext>input[type="text"],
     .mform textarea {
         width: 100%;
     }
-
     .mform input[type="text"] {
         max-width: 100%;
     }
-
     .path-user .userlist .singleselect {
         width: 100%;
     }
@@ -9131,7 +8921,6 @@ table th img.iconhelp {
     #page-enrol-users .enrol_user_buttons {
         float: none;
     }
-
     #page-enrol-users .enrol_user_buttons .singlebutton.enrolusersbutton {
         display: block;
     }
@@ -9142,33 +8931,27 @@ table th img.iconhelp {
     #region-main {
         font-size: 14.4px;
     }
-
     h1,
     .h1 {
         font-size: 1.5em;
     }
-
     h2,
     .h2 {
         font-size: 1.4em;
     }
-
     h3,
     .h3,
     .sectionname {
         font-size: 1.3em;
     }
-
     h4,
     .h4 {
         font-size: 1.2em;
     }
-
     h5,
     .h5 {
         font-size: 1.1em;
     }
-
     h6,
     .h6 {
         font-size: 1em;
@@ -9231,7 +9014,7 @@ textarea {
     background-color: #eee;
 }
 
-div.editor_atto_toolbar button + button {
+div.editor_atto_toolbar button+button {
     border-color: #fff;
 }
 
@@ -9298,6 +9081,7 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 /* Feature spots. */
+
 #snap-feature-spots {
     padding: 2em 4%;
     text-align: center;
@@ -9319,16 +9103,7 @@ div.editor_atto_toolbar div.atto_group {
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 36px;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -9358,16 +9133,7 @@ div.editor_atto_toolbar div.atto_group {
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 29px;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #page-admin-setting-themesnapfeaturespots #admin-fs_one_title input small,
@@ -9450,6 +9216,7 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 /* Featured courses admin page. */
+
 #page-admin-setting-themesnapfeaturedcourses #admin-fc_heading input {
     font-weight: 300;
     line-height: 1.5;
@@ -9457,16 +9224,7 @@ div.editor_atto_toolbar div.atto_group {
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 36px;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -9523,6 +9281,7 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 /* Featured courses section. */
+
 @media screen and (min-width: 768px) {
     #snap-featured-courses .row div {
         /* Center and restrict width for when only one course */
@@ -9532,12 +9291,14 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 /* Featured course container. */
+
 #snap-featured-courses {
     width: 100%;
     padding: 2em 4%;
 }
 
 /* Featured course link. */
+
 .snap-featured-course {
     display: block;
     height: 300px;
@@ -9559,6 +9320,7 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 /* Featured course title. */
+
 .snap-featured-course-title {
     display: block;
     min-height: 25%;
@@ -9606,18 +9368,18 @@ div.editor_atto_toolbar div.atto_group {
     font-size: 13px;
 }
 
-td.mceIframeContainer > iframe {
+td.mceIframeContainer>iframe {
     max-width: 100%;
 }
 
-body.gecko .snap-form-required > fieldset,
-body.gecko .snap-form-advanced > fieldset {
+body.gecko .snap-form-required>fieldset,
+body.gecko .snap-form-advanced>fieldset {
     display: table-cell;
     max-width: 100%;
 }
 
-body.ie .snap-form-required > fieldset,
-body.ie .snap-form-advanced > fieldset {
+body.ie .snap-form-required>fieldset,
+body.ie .snap-form-advanced>fieldset {
     table-layout: fixed;
     max-width: 100%;
 }
@@ -9772,51 +9534,43 @@ label.state-visible[for="snap-coverfiles"] .spinner-three-quarters,
  * Fixes to recent course activity page.
  * Note - excuse the awful CSS used here but terribly inconsistent markup across modules necessitates it.
  */
+
 #page-course-recent #region-main div.generalbox td,
-#page-course-recent #region-main div.generalbox > div {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+#page-course-recent #region-main div.generalbox>div {
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     margin-top: 0.5rem;
 }
 
 #page-course-recent #region-main div.generalbox td[style],
-#page-course-recent #region-main div.generalbox > div[style],
-#page-course-recent #region-main div.generalbox td[style] + div.submission,
-#page-course-recent #region-main div.generalbox > div[style] + div.submission {
+#page-course-recent #region-main div.generalbox>div[style],
+#page-course-recent #region-main div.generalbox td[style]+div.submission,
+#page-course-recent #region-main div.generalbox>div[style]+div.submission {
     padding: 0 !important;
 }
 
 #page-course-recent #region-main div.generalbox td div.glossary-activity-content,
-#page-course-recent #region-main div.generalbox > div div.glossary-activity-content {
+#page-course-recent #region-main div.generalbox>div div.glossary-activity-content {
     float: left;
     margin-left: 10px;
 }
 
 #page-course-recent #region-main div.generalbox td span div a img,
-#page-course-recent #region-main div.generalbox > div span div a img,
-#page-course-recent #region-main div.generalbox td > div a img,
-#page-course-recent #region-main div.generalbox > div > div a img,
-#page-course-recent #region-main div.generalbox td > a img,
-#page-course-recent #region-main div.generalbox > div > a img {
+#page-course-recent #region-main div.generalbox>div span div a img,
+#page-course-recent #region-main div.generalbox td>div a img,
+#page-course-recent #region-main div.generalbox>div>div a img,
+#page-course-recent #region-main div.generalbox td>a img,
+#page-course-recent #region-main div.generalbox>div>a img {
     margin-left: 25px;
 }
 
-#page-course-recent #region-main div.generalbox td + div.submission,
-#page-course-recent #region-main div.generalbox > div + div.submission {
+#page-course-recent #region-main div.generalbox td+div.submission,
+#page-course-recent #region-main div.generalbox>div+div.submission {
     margin-left: 10px;
 }
 
-#page-course-recent #region-main div.generalbox td + div.submission strong,
-#page-course-recent #region-main div.generalbox > div + div.submission strong {
+#page-course-recent #region-main div.generalbox td+div.submission strong,
+#page-course-recent #region-main div.generalbox>div+div.submission strong {
     font-weight: 300;
 }
 
@@ -9841,6 +9595,7 @@ label.state-visible[for="snap-coverfiles"] .spinner-three-quarters,
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 /***************
 THE COURSE DOM LOOKS LIKE THIS :
 (n.b. i did not invent this dom structure)
@@ -9851,6 +9606,7 @@ section#region-main
             ul.somestringfromtheformat e.g  topics/weeks etc
 
  ****************************/
+
 .singlebutton {
     margin: 0.5em 0;
     text-align: center;
@@ -9873,7 +9629,7 @@ section#region-main
     display: block;
 }
 
-#page-course-view-folderview .type_course ul > li:first-child {
+#page-course-view-folderview .type_course ul>li:first-child {
     display: list-item;
 }
 
@@ -9890,7 +9646,7 @@ section#region-main
     display: none;
 }
 
-.ie.path-course-view section#region-main > .singlebutton input[type="submit"] {
+.ie.path-course-view section#region-main>.singlebutton input[type="submit"] {
     background-image: url("[[pix:theme|edit_for_ie]]");
     background-size: 23px;
     background-position: left center;
@@ -10030,6 +9786,7 @@ section#region-main
 }
 
 /* Small screen course tools */
+
 @media screen and (max-width: 480px) {
     #coursetools-list a {
         width: 49%;
@@ -10084,7 +9841,7 @@ li.section:focus {
     margin-right: 40px;
 }
 
-#page-course-view-folderview .content > h3 {
+#page-course-view-folderview .content>h3 {
     display: inline;
 }
 
@@ -10258,6 +10015,7 @@ li.section:focus {
 }
 
 /* Landing page does not have renderer, so markup is different. */
+
 #page-site-index .section-modchooser-link {
     border-color: white;
 }
@@ -10280,7 +10038,7 @@ li.section:focus {
     padding: 0;
 }
 
-.course-content > ul li.section,
+.course-content>ul li.section,
 #coursetools,
 #snap-add-new-section {
     visibility: hidden;
@@ -10289,23 +10047,23 @@ li.section:focus {
     overflow: hidden;
 }
 
-.course-content > ul li.section.hidden {
+.course-content>ul li.section.hidden {
     visibility: hidden !important;
 }
 
-.course-content > ul li.section.hidden.state-visible {
+.course-content>ul li.section.hidden.state-visible {
     visibility: visible !important;
 }
 
-.course-content > ul li.section .content {
+.course-content>ul li.section .content {
     display: none;
 }
 
-.course-content > ul li.section.state-visible .content {
+.course-content>ul li.section.state-visible .content {
     display: block;
 }
 
-.course-content > ul li.section.state-visible,
+.course-content>ul li.section.state-visible,
 #snap-add-new-section.state-visible,
 .editing #snap-add-new-section,
 #coursetools.state-visible,
@@ -10320,6 +10078,7 @@ li.section:focus {
 }
 
 /* hide progress label with odd z-indexing */
+
 #completionprogressid {
     display: none;
 }
@@ -10331,6 +10090,7 @@ li.section:focus {
 }
 
 /* Flex page - align edit button right */
+
 body.format-flexpage .singlebutton {
     text-align: right;
 }
@@ -10345,8 +10105,9 @@ body.format-flexpage .singlebutton {
 }
 
 /* MODS & RESOURCES IN COURSE */
-.path-site li.activity > div,
-.path-course-view li.activity > div {
+
+.path-site li.activity>div,
+.path-course-view li.activity>div {
     padding: 0;
 }
 
@@ -10391,16 +10152,7 @@ body.format-flexpage .singlebutton {
     padding: 0;
     margin: 0 auto;
     height: auto;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
     border: 1px solid #dadada;
     border-top-width: 0.3em;
@@ -10479,11 +10231,13 @@ body.format-flexpage .singlebutton {
  * resourcelinkdetails = moodle putting filetype on screen if option selected
  * we do this by default in snap, so hide moodle version
  */
+
 .resourcelinkdetails {
     display: none;
 }
 
 /* snap has its own implimentation of these, so hide moodles */
+
 .activityinstance .accesshide,
 .groupinglabel {
     display: none;
@@ -10564,7 +10318,7 @@ body.format-flexpage .singlebutton {
     outline: 0;
 }
 
-.section li.snap-native .summary-text + h6 {
+.section li.snap-native .summary-text+h6 {
     clear: left;
 }
 
@@ -10785,22 +10539,18 @@ body.snap-resource-card li.snap-resource.snap-mime-text {
         height: auto;
         background-image: none !important;
     }
-
     body.snap-resource-card li.snap-resource .activityinstance {
         width: 75%;
     }
-
     body.snap-resource-card li.snap-resource .activityinstance .activityicon {
         display: inline;
     }
-
     body.snap-resource-card li.snap-resource .snap-asset-actions {
         width: 250px;
     }
-
     body.snap-resource-card li.snap-resource .snap-asset-actions .snap-asset-move,
     body.snap-resource-card li.snap-resource .snap-asset-actions .snap-edit-more-dropdown,
-    body.snap-resource-card li.snap-resource .snap-asset-actions > a {
+    body.snap-resource-card li.snap-resource .snap-asset-actions>a {
         width: 25%;
         text-align: left;
         padding: 0;
@@ -10861,33 +10611,26 @@ body.snap-resource-card li.snap-resource.snap-mime-text {
 }
 
 /* EDIT SUMMARY */
+
 /* Make it obvious that you can edit a summary - Add text and some styles to that gear thing */
-#page-site-index .sitetopic > a:last-of-type,
+
+#page-site-index .sitetopic>a:last-of-type,
 .summary .edit-summary {
     clear: both;
     display: block;
     text-align: center;
     margin: 1em 0;
     background-color: transparent;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#page-site-index .sitetopic > a:last-of-type:after {
+#page-site-index .sitetopic>a:last-of-type:after {
     content: attr(title);
     display: block;
     font-weight: 300;
 }
 
-#page-site-index .sitetopic > a:last-of-type:before {
+#page-site-index .sitetopic>a:last-of-type:before {
     content: " ";
     background: transparent url("[[pix:theme|pencil]]") no-repeat 50% 50%;
     display: block;
@@ -10896,7 +10639,7 @@ body.snap-resource-card li.snap-resource.snap-mime-text {
     margin: 0.5em auto;
 }
 
-#page-site-index .sitetopic > a .iconsmall {
+#page-site-index .sitetopic>a .iconsmall {
     display: none;
 }
 
@@ -10920,23 +10663,14 @@ body.snap-resource-card li.snap-resource.snap-mime-text {
     font-weight: 500;
 }
 
-.snap-completion-meta a + a,
-.snap-group-tag a + a,
-.snap-grouping-tag a + a {
+.snap-completion-meta a+a,
+.snap-group-tag a+a,
+.snap-grouping-tag a+a {
     border-left: 1px solid;
 }
 
 .snap-due-date {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius: 0;
     font-weight: normal;
     font-size: 1em;
@@ -10951,16 +10685,7 @@ body.snap-resource-card li.snap-resource.snap-mime-text {
 .snap-draft-tag,
 .snap-current-tag {
     font-size: small;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #eee;
     margin: 0.5em 0;
     padding: 0.5em;
@@ -11046,6 +10771,7 @@ li.draft .editing_show {
 }
 
 /* Completion actions */
+
 @keyframes circleajax {
     0% {
         border-top-color: #646464;
@@ -11129,6 +10855,7 @@ form.togglecompletion.ajaxing div {
 }
 
 /* Indent text associated with activity/resource. */
+
 .section li.snap-activity .contentafterlink,
 .section li.snap-activity .hsuforum-recent {
     margin-left: 47px;
@@ -11142,7 +10869,7 @@ form.togglecompletion.ajaxing div {
     width: 250px;
 }
 
-.snap-asset-actions > a,
+.snap-asset-actions>a,
 .snap-asset-actions .snap-edit-more-dropdown,
 .snap-asset-actions .snap-asset-move {
     display: inline-block !important;
@@ -11152,10 +10879,10 @@ form.togglecompletion.ajaxing div {
     cursor: pointer;
 }
 
-.snap-asset-actions > a:hover .svg-icon,
+.snap-asset-actions>a:hover .svg-icon,
 .snap-asset-actions .snap-edit-more-dropdown:hover .svg-icon,
 .snap-asset-actions .snap-asset-move:hover .svg-icon,
-.snap-asset-actions > a:focus .svg-icon,
+.snap-asset-actions>a:focus .svg-icon,
 .snap-asset-actions .snap-edit-more-dropdown:focus .svg-icon,
 .snap-asset-actions .snap-asset-move:focus .svg-icon {
     transform: scale(1.1);
@@ -11171,7 +10898,7 @@ form.togglecompletion.ajaxing div {
     transition: all 0.4s ease-in-out;
 }
 
-.snap-asset-actions input[type=checkbox]:checked + .svg-icon {
+.snap-asset-actions input[type=checkbox]:checked+.svg-icon {
     background-color: #8bc34a !important;
 }
 
@@ -11194,14 +10921,14 @@ form.togglecompletion.ajaxing div {
     width: 100%;
 }
 
-.snap-resource .snap-asset-actions > a,
-.snap-resource .snap-asset-actions > a:hover,
-.snap-resource .snap-asset-actions div > a,
-.snap-resource .snap-asset-actions div > a:hover {
+.snap-resource .snap-asset-actions>a,
+.snap-resource .snap-asset-actions>a:hover,
+.snap-resource .snap-asset-actions div>a,
+.snap-resource .snap-asset-actions div>a:hover {
     color: #fff;
 }
 
-.snap-resource .snap-asset-actions > a,
+.snap-resource .snap-asset-actions>a,
 .snap-resource .snap-asset-actions .snap-edit-more-dropdown,
 .snap-resource .snap-asset-actions label {
     padding: 0.3em 7%;
@@ -11214,17 +10941,19 @@ form.togglecompletion.ajaxing div {
 }
 
 /* reset some moodle shame */
+
 .moodle-actionmenu,
-.moodle-actionmenu > ul,
-.moodle-actionmenu > ul > li {
+.moodle-actionmenu>ul,
+.moodle-actionmenu>ul>li {
     display: block;
 }
 
-.moodle-actionmenu > ul > li {
+.moodle-actionmenu>ul>li {
     display: inline-block;
 }
 
 /*  actions at the footer of an element */
+
 .section .snap-asset .actions {
     clear: both;
     float: none;
@@ -11265,16 +10994,18 @@ form.togglecompletion.ajaxing div {
     text-align: right;
 }
 
-.section .snap-asset .actions .moodle-actionmenu > ul {
+.section .snap-asset .actions .moodle-actionmenu>ul {
     margin: 0;
 }
 
 /* add bg colour for actions when editing */
+
 .editing .actions {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
 /* remove bg colour for actions when menu shown */
+
 .action-menu-shown .actions {
     background-color: transparent;
 }
@@ -11312,7 +11043,7 @@ div.commands ul.menubar {
     height: 1em;
 }
 
-.action-menu-shown .moodle-actionmenu > ul > li {
+.action-menu-shown .moodle-actionmenu>ul>li {
     display: block;
 }
 
@@ -11364,19 +11095,11 @@ input.titleeditor {
 span.editinstructions {
     box-shadow: none;
     border: 0;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* forum unread posts button */
+
 .snap-asset .unread {
     clear: both;
     display: block;
@@ -11562,15 +11285,12 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     .userlist table.controls tr td.right {
         text-align: left;
     }
-
     .userlist table.controls tr td {
         padding: 0 0 1em !important;
     }
-
     .userlist table.controls tr td:empty {
         display: none;
     }
-
     .userlist table.controls tr td,
     .userlist .singleselect {
         display: block;
@@ -11607,7 +11327,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
 
 .section-drop,
 .section-moving a.section-drop,
-.section-moving + .section .section-drop {
+.section-moving+.section .section-drop {
     display: none;
 }
 
@@ -11616,16 +11336,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     margin: 1em 0;
     clear: both;
     border: 2px dashed #dadada;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     display: none;
 }
@@ -11758,16 +11469,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     border: 2px dashed #999;
     font-size: 2em;
     color: #565656;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     cursor: pointer;
 }
@@ -11823,6 +11525,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
  * @copyright Copyright (c) 2017 Blackboard Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 #course-toc {
     /* TOC heading. */
     /* TOC list. */
@@ -11862,7 +11565,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     height: 1.3em;
 }
 
-#course-toc .text + .text:before {
+#course-toc .text+.text:before {
     content: " · ";
 }
 
@@ -11941,7 +11644,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     margin-left: 2em;
 }
 
-#page-header #chapters > :first-child {
+#page-header #chapters> :first-child {
     list-style: none;
 }
 
@@ -12022,8 +11725,8 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     padding-bottom: 1em;
 }
 
-#toc-search-input.state-active + #toc-search-results,
-#toc-search-input:focus + #toc-search-results {
+#toc-search-input.state-active+#toc-search-results,
+#toc-search-input:focus+#toc-search-results {
     display: block;
 }
 
@@ -12053,7 +11756,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     .snap-footer-alert-cancel {
         margin-right: 3em;
     }
-
     #toc-mobile-menu-toggle {
         background: #dadada url("[[pix:theme|burger]]") no-repeat 50% 50%;
         background-size: 1em;
@@ -12068,7 +11770,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         border-radius: 50%;
         z-index: 666;
     }
-
     #course-toc {
         position: fixed;
         right: 0;
@@ -12079,13 +11780,11 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         transition: all 0.4s ease-in-out;
         outline: none;
     }
-
     #course-toc #chapters,
     #course-toc .toc-footer,
     #course-toc #toc-desktop-menu-heading {
         display: none;
     }
-
     #course-toc.state-visible {
         display: block;
         width: 100%;
@@ -12095,13 +11794,11 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         background-color: white !important;
         overflow-y: scroll;
     }
-
     #course-toc.state-visible #chapters,
     #course-toc.state-visible .toc-footer {
         display: block;
         column-count: 1;
     }
-
     #course-toc.state-visible #toc-mobile-menu-toggle {
         position: fixed;
         box-shadow: none;
@@ -12109,7 +11806,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         background: white url("[[pix:theme|close_x]]") no-repeat 50% 50%;
         background-size: 1em;
     }
-
     #toc-search,
     #toc-desktop-menu-heading {
         display: none;
@@ -12352,7 +12048,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         padding-right: 15px;
         margin-bottom: 2em;
     }
-
     .callstoaction {
         position: relative;
         min-height: 1px;
@@ -12360,7 +12055,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         padding-right: 15px;
         margin-bottom: 2em;
     }
-
     .callstoaction section {
         width: 100%;
         padding-bottom: 0.5em;
@@ -12386,7 +12080,6 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     .callstoaction {
         column-count: 2;
     }
-
     .callstoaction section {
         width: 100%;
         float: none;
@@ -12403,26 +12096,22 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     #fixy-user .userpicture {
         width: 60px;
     }
-
     #primary-nav section {
         width: 96vw !important;
         float: left;
         padding: 1em;
         transition: all 0.4s ease-in-out;
     }
-
     #snap-pm-content {
         position: relative;
         width: 700vw;
         overflow: hidden;
         padding-bottom: 2em;
     }
-
     .fixy-inner {
         overflow: hidden;
         width: 100vw;
     }
-
     #fixy-mobile-menu {
         display: block;
         position: fixed;
@@ -12435,20 +12124,17 @@ fieldset[disabled] a#changenumsections .reduce-sections {
         background-color: #fff;
         border-top: 1px solid #eee;
     }
-
     #fixy-mobile-menu a {
         display: inline-block;
         margin: 2%;
         width: 12%;
         outline: 0;
     }
-
     #fixy-mobile-menu a .svg-icon {
         border-radius: 50%;
         height: 40px;
         width: 40px;
     }
-
     .courseinfo-body {
         width: 61.8% !important;
         height: auto;
@@ -12643,6 +12329,7 @@ fieldset[disabled] a#changenumsections .reduce-sections {
 }
 
 /* Course favoriting */
+
 .courseinfo .favoritetoggle {
     width: 2em;
     height: 2em;
@@ -12708,6 +12395,7 @@ button.snap-icon-toggle.favoritetoggle:focus {
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 body:not(.behat-site)#page-mod-resource-mod #id_optionssection,
 body:not(.behat-site)#page-mod-url-mod #id_optionssection {
     display: none;
@@ -12768,44 +12456,35 @@ input[type="radio"] {
     display: none;
 }
 
-#page-course-edit #maincontent + h2,
-#page-course-editsection #maincontent + h2,
-.pagelayout-admin.path-mod #maincontent + h2 {
+#page-course-edit #maincontent+h2,
+#page-course-editsection #maincontent+h2,
+.pagelayout-admin.path-mod #maincontent+h2 {
     font-weight: 300;
     line-height: 1.5;
     color: #565656;
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 24px;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#page-course-edit #maincontent + h2 small,
-#page-course-editsection #maincontent + h2 small,
-.pagelayout-admin.path-mod #maincontent + h2 small,
-#page-course-edit #maincontent + h2 .small,
-#page-course-editsection #maincontent + h2 .small,
-.pagelayout-admin.path-mod #maincontent + h2 .small {
+#page-course-edit #maincontent+h2 small,
+#page-course-editsection #maincontent+h2 small,
+.pagelayout-admin.path-mod #maincontent+h2 small,
+#page-course-edit #maincontent+h2 .small,
+#page-course-editsection #maincontent+h2 .small,
+.pagelayout-admin.path-mod #maincontent+h2 .small {
     font-weight: normal;
     line-height: 1;
     color: #999;
 }
 
-#page-course-edit #maincontent + h2 small,
-#page-course-editsection #maincontent + h2 small,
-.pagelayout-admin.path-mod #maincontent + h2 small,
-#page-course-edit #maincontent + h2 .small,
-#page-course-editsection #maincontent + h2 .small,
-.pagelayout-admin.path-mod #maincontent + h2 .small {
+#page-course-edit #maincontent+h2 small,
+#page-course-editsection #maincontent+h2 small,
+.pagelayout-admin.path-mod #maincontent+h2 small,
+#page-course-edit #maincontent+h2 .small,
+#page-course-editsection #maincontent+h2 .small,
+.pagelayout-admin.path-mod #maincontent+h2 .small {
     font-size: 75%;
 }
 
@@ -12879,51 +12558,34 @@ fieldset[disabled] #id_cancel:focus {
         color: #565656;
         margin-bottom: 14px;
         font-size: 36px;
-        font-family:
-            "Roboto",
-            "Fira Sans",
-            "Segoe UI",
-            "HelveticaNeue-Light",
-            "Helvetica Neue Light",
-            "Helvetica Neue",
-            Helvetica,
-            Arial,
-            sans-serif;
+        font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin-top: 0;
     }
-
     #id_name small,
     #id_name .small {
         font-weight: normal;
         line-height: 1;
         color: #999;
     }
-
     #id_name small,
     #id_name .small {
         font-size: 75%;
     }
-
     .snap-form-required #fgroup_id_buttonar {
         margin-top: 25px;
     }
-
     .snap-form-advanced fieldset.collapsible legend a.fheader {
         margin-left: -6px;
     }
-
     .snap-form-advanced legend {
         font-size: 1em;
     }
-
     .snap-form-advanced select {
         max-width: 300px;
     }
-
     .snap-form-advanced .collapsible-actions {
         text-align: left;
     }
-
     .snap-form-advanced .collapsible-actions .collapseexpand {
         margin-left: -6px;
     }
@@ -12948,8 +12610,7 @@ fieldset[disabled] #id_cancel:focus {
     .snap-form-required #id_cancel {
         margin-left: 0;
     }
-
-    .snap-form-required #id_submitbutton2 + #id_submitbutton {
+    .snap-form-required #id_submitbutton2+#id_submitbutton {
         display: none;
     }
 }
@@ -12977,8 +12638,8 @@ fieldset[disabled] #id_cancel:focus {
     }
 }
 
-#s_theme_snap_resourcedisplay_list + br,
-#s_theme_snap_resourcedisplay_card + br {
+#s_theme_snap_resourcedisplay_list+br,
+#s_theme_snap_resourcedisplay_card+br {
     display: none;
 }
 
@@ -12998,10 +12659,13 @@ fieldset[disabled] #id_cancel:focus {
 /**
 * Plugins css.
 */
+
 /**
 * oembed filter.
 */
+
 /* oembed content cards. */
+
 .filter_oembed_lazyvideo_container {
     min-width: 100%;
     background-color: black;
@@ -13011,16 +12675,7 @@ fieldset[disabled] #id_cancel:focus {
 }
 
 .filter_oembed_lazyvideo_container .filter_oembed_lazyvideo_text {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0.5em;
 }
 
@@ -13037,16 +12692,15 @@ fieldset[disabled] #id_cancel:focus {
 }
 
 /* Large screen. */
+
 @media screen and (min-width: 768px) {
     .filter_oembed_lazyvideo_container {
         /* Image. */
         /* Content when loaded. */
     }
-
     .filter_oembed_lazyvideo_container .filter_oembed_lazyvideo_placeholder {
         height: 400px;
     }
-
     .filter_oembed_lazyvideo_container iframe {
         min-height: 400px;
     }
@@ -13056,6 +12710,7 @@ fieldset[disabled] #id_cancel:focus {
  * report : dates.
  * https://moodle.org/plugins/report_editdates
  */
+
 #page-report-editdates-index .activityicon {
     width: 2rem;
     height: 2rem;
@@ -13066,6 +12721,7 @@ fieldset[disabled] #id_cancel:focus {
 /**
  * Mod assign grading interface.
  */
+
 .path-mod-assign {
     /* Drop down menus in the anotation bar */
     /* Dialogue close icons */
@@ -13118,24 +12774,20 @@ fieldset[disabled] #id_cancel:focus {
     .path-mod-assign {
         /* Remove margin from bs row so panes are full page. */
     }
-
     .path-mod-assign .grading-main {
         margin-right: 0;
     }
-
     .path-mod-assign [data-region="review-panel-content"],
     .path-mod-assign [data-region="grade-panel"] {
         max-height: 80vh;
         overflow-y: scroll;
     }
-
     .path-mod-assign [data-region="review-panel"] {
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 0;
     }
-
     .path-mod-assign [data-region="review-panel"] .pageheader {
         position: absolute;
         top: 0;
@@ -13143,7 +12795,6 @@ fieldset[disabled] #id_cancel:focus {
         width: 100%;
         z-index: 1;
     }
-
     .path-mod-assign [data-region="review-panel"].grade-panel-collapsed {
         position: relative;
         min-height: 1px;
@@ -13151,24 +12802,20 @@ fieldset[disabled] #id_cancel:focus {
         padding-right: 15px;
         right: 0;
     }
-
     .path-mod-assign [data-region="grade-panel"] {
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px;
     }
-
     .path-mod-assign [data-region="grade-actions-panel"] {
         position: fixed;
         background-color: white;
         height: auto;
     }
-
     .path-mod-assign [data-region="grade-actions-panel"] [data-region="grade-actions"] {
         padding: 0.5em;
     }
-
     .path-mod-assign [data-region="grade-actions-panel"] [data-region="grade-actions"] .collapse-buttons {
         top: 25%;
         right: 0;
@@ -13205,6 +12852,7 @@ fieldset[disabled] #id_cancel:focus {
  * Also, note - it's an issue with the editor being inside a dialog, so fix applied more widely than just to
  * joule-grader.
  */
+
 .moodle-dialogue-base .assignfeedback_editpdf_widget .drawingregion {
     left: 0;
     top: 0;
@@ -13214,6 +12862,7 @@ fieldset[disabled] #id_cancel:focus {
  * Survey module.
  * Fix black text on save.
  */
+
 #page-mod-survey-save div[role="main"] h2 {
     padding-top: 0.5em;
     color: #fff;
@@ -13222,6 +12871,7 @@ fieldset[disabled] #id_cancel:focus {
 /**
  * Conduit.
  */
+
 #page-blocks-conduit-view .mform .fitem .felement.fgroup span {
     display: inline-block;
 }
@@ -13251,7 +12901,9 @@ fieldset[disabled] #id_cancel:focus {
  * Buttons used in multiple templates.
  *
  */
+
 /* Search icon. */
+
 .path-admin-tool-lp [data-region="filtercompetencies"] button {
     font-weight: normal;
     border-radius: 0;
@@ -13291,18 +12943,20 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 }
 
 /* Buttons without full bs class. */
+
 .path-admin-tool-lp button.btn {
     background-color: white;
 }
 
 /* Icon size. */
+
 .path-admin-tool-lp ul.inline {
     padding-left: 0;
     list-style: none;
     margin-left: -5px;
 }
 
-.path-admin-tool-lp ul.inline > li {
+.path-admin-tool-lp ul.inline>li {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
@@ -13323,6 +12977,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 }
 
 /* autocomplete form - might be used more in moodle 3.2, but just in competencies at the moment. */
+
 .form-autocomplete-downarrow {
     color: #565656;
     top: 0;
@@ -13331,6 +12986,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 /**
  * Stop rubric mform from being positioned inefficiently in dialog.
  */
+
 #local-joulegrader-gradepane-panel .mform {
     max-width: 100%;
     margin: 0 auto;
@@ -13339,7 +12995,9 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 /**
  * Mod lesson.
  */
+
 /* Radio button and checkbox inputs. */
+
 #page-mod-lesson-view.path-mod-lesson .answeroptiongroup,
 #page-mod-lesson-view.path-mod-lesson .answeroption {
     /* Put options on seperate lines. */
@@ -13352,20 +13010,20 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
     top: 0.25em;
 }
 
-#page-mod-lesson-view.path-mod-lesson .answeroptiongroup input[type="radio"] + label,
-#page-mod-lesson-view.path-mod-lesson .answeroption input[type="radio"] + label,
-#page-mod-lesson-view.path-mod-lesson .answeroptiongroup input[type="checkbox"] + label,
-#page-mod-lesson-view.path-mod-lesson .answeroption input[type="checkbox"] + label {
+#page-mod-lesson-view.path-mod-lesson .answeroptiongroup input[type="radio"]+label,
+#page-mod-lesson-view.path-mod-lesson .answeroption input[type="radio"]+label,
+#page-mod-lesson-view.path-mod-lesson .answeroptiongroup input[type="checkbox"]+label,
+#page-mod-lesson-view.path-mod-lesson .answeroption input[type="checkbox"]+label {
     padding-left: 1.5em;
 }
 
-#page-mod-lesson-view.path-mod-lesson .answeroptiongroup .fgroup > span,
-#page-mod-lesson-view.path-mod-lesson .answeroption .fgroup > span {
+#page-mod-lesson-view.path-mod-lesson .answeroptiongroup .fgroup>span,
+#page-mod-lesson-view.path-mod-lesson .answeroption .fgroup>span {
     display: table;
 }
 
-#page-mod-lesson-view.path-mod-lesson .answeroptiongroup .fgroup > span label p,
-#page-mod-lesson-view.path-mod-lesson .answeroption .fgroup > span label p {
+#page-mod-lesson-view.path-mod-lesson .answeroptiongroup .fgroup>span label p,
+#page-mod-lesson-view.path-mod-lesson .answeroption .fgroup>span label p {
     display: inline;
 }
 
@@ -13374,7 +13032,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
     overflow-y: auto;
 }
 
-.gradingform_guide_comment_chooser > ul > li button {
+.gradingform_guide_comment_chooser>ul>li button {
     text-align: left;
     white-space: normal;
 }
@@ -13386,6 +13044,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
  * @copyright Copyright (c) 2017 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 #page-user-profile,
 .path-course.path-user {
     /* User image and name. */
@@ -13475,16 +13134,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 29px;
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #page-user-profile .userprofile .profile_tree .node_category h3 small,
@@ -13509,6 +13159,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 }
 
 /* Course user profile. */
+
 .path-course.path-user {
     /* If course image, pull the user image up. */
 }
@@ -13518,24 +13169,24 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
 }
 
 /* Global user profile. */
+
 #page-user-profile .page-header-headings h1 {
     margin: 0.25em 0;
 }
 
 /* Large screen. */
+
 @media screen and (min-width: 992px) {
     #page-user-profile,
     .path-course.path-user {
         /* Hack to center buttons */
     }
-
     #page-user-profile div.singlebutton,
     .path-course.path-user div.singlebutton {
         margin-left: 30vw;
     }
-
-    #page-user-profile div.singlebutton + .singlebutton,
-    .path-course.path-user div.singlebutton + .singlebutton {
+    #page-user-profile div.singlebutton+.singlebutton,
+    .path-course.path-user div.singlebutton+.singlebutton {
         margin-left: 0;
     }
 }
@@ -13547,6 +13198,7 @@ fieldset[disabled] .path-admin-tool-lp [data-region="filtercompetencies"] button
  * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 .news-article-message *[style],
 .snap-image-summary *[style],
 .summary-text *[style],
@@ -13600,7 +13252,7 @@ a:hover,
     outline: 0;
 }
 
-.js-snap-asset-move:focus + label .svg-icon {
+.js-snap-asset-move:focus+label .svg-icon {
     outline: 3px solid #03a9f4;
 }
 
@@ -13707,36 +13359,18 @@ legend,
 .form_autocomplete_suggestions,
 .collapsibleregioncaption,
 .snap-featured-course-title {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .snap-action-icon,
 #coursetools-list a,
 .snap-progress-circle .progressbar-text {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
     background-color: #03a9f4;
 }
 
@@ -13784,25 +13418,25 @@ input#id_submitbutton,
 input#id_submitbutton2,
 .path-admin .buttons input[type="submit"],
 td.submit input,
-#notice .singlebutton + .singlebutton input,
+#notice .singlebutton+.singlebutton input,
 #login.fixy input[type=submit],
 button#local-joulegrader-preview-button,
 button.atto_equation_submit,
 .yui-skin-sam .yui-button,
 .yui3-button,
 .yui-button button,
-.felement.ftext input + button,
+.felement.ftext input+button,
 .header-button-group .btn,
 .btn.btn-primary,
 .btn.btn-default,
 .btn.btn-solid,
-.button-group > button,
+.button-group>button,
 input.form-submit,
 input[type="button"],
 .moodle-dialogue-content button,
 button#restrictbygroup,
 button#livelogs-pause-button,
-#page-admin-tool-monitor-managerules a > button,
+#page-admin-tool-monitor-managerules a>button,
 input[type="submit"],
 button[type="submit"],
 input[type="reset"],
@@ -13811,16 +13445,7 @@ input[type="reset"],
 .gradingform_rubric.editor .addlevel input,
 .gradingform_rubric.editor .addcriterion input,
 #page-site-index .section-modchooser-link .section-modchooser-text {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     transition: all 0.4s ease-in-out;
     color: #03a9f4;
     border-color: #03a9f4;
@@ -13838,25 +13463,25 @@ input#id_submitbutton:visited,
 input#id_submitbutton2:visited,
 .path-admin .buttons input[type="submit"]:visited,
 td.submit input:visited,
-#notice .singlebutton + .singlebutton input:visited,
+#notice .singlebutton+.singlebutton input:visited,
 #login.fixy input[type=submit]:visited,
 button#local-joulegrader-preview-button:visited,
 button.atto_equation_submit:visited,
 .yui-skin-sam .yui-button:visited,
 .yui3-button:visited,
 .yui-button button:visited,
-.felement.ftext input + button:visited,
+.felement.ftext input+button:visited,
 .header-button-group .btn:visited,
 .btn.btn-primary:visited,
 .btn.btn-default:visited,
 .btn.btn-solid:visited,
-.button-group > button:visited,
+.button-group>button:visited,
 input.form-submit:visited,
 input[type="button"]:visited,
 .moodle-dialogue-content button:visited,
 button#restrictbygroup:visited,
 button#livelogs-pause-button:visited,
-#page-admin-tool-monitor-managerules a > button:visited,
+#page-admin-tool-monitor-managerules a>button:visited,
 input[type="submit"]:visited,
 button[type="submit"]:visited,
 input[type="reset"]:visited,
@@ -13879,25 +13504,25 @@ input#id_submitbutton:hover,
 input#id_submitbutton2:hover,
 .path-admin .buttons input[type="submit"]:hover,
 td.submit input:hover,
-#notice .singlebutton + .singlebutton input:hover,
+#notice .singlebutton+.singlebutton input:hover,
 #login.fixy input[type=submit]:hover,
 button#local-joulegrader-preview-button:hover,
 button.atto_equation_submit:hover,
 .yui-skin-sam .yui-button:hover,
 .yui3-button:hover,
 .yui-button button:hover,
-.felement.ftext input + button:hover,
+.felement.ftext input+button:hover,
 .header-button-group .btn:hover,
 .btn.btn-primary:hover,
 .btn.btn-default:hover,
 .btn.btn-solid:hover,
-.button-group > button:hover,
+.button-group>button:hover,
 input.form-submit:hover,
 input[type="button"]:hover,
 .moodle-dialogue-content button:hover,
 button#restrictbygroup:hover,
 button#livelogs-pause-button:hover,
-#page-admin-tool-monitor-managerules a > button:hover,
+#page-admin-tool-monitor-managerules a>button:hover,
 input[type="submit"]:hover,
 button[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -13917,25 +13542,25 @@ input#id_submitbutton:focus,
 input#id_submitbutton2:focus,
 .path-admin .buttons input[type="submit"]:focus,
 td.submit input:focus,
-#notice .singlebutton + .singlebutton input:focus,
+#notice .singlebutton+.singlebutton input:focus,
 #login.fixy input[type=submit]:focus,
 button#local-joulegrader-preview-button:focus,
 button.atto_equation_submit:focus,
 .yui-skin-sam .yui-button:focus,
 .yui3-button:focus,
 .yui-button button:focus,
-.felement.ftext input + button:focus,
+.felement.ftext input+button:focus,
 .header-button-group .btn:focus,
 .btn.btn-primary:focus,
 .btn.btn-default:focus,
 .btn.btn-solid:focus,
-.button-group > button:focus,
+.button-group>button:focus,
 input.form-submit:focus,
 input[type="button"]:focus,
 .moodle-dialogue-content button:focus,
 button#restrictbygroup:focus,
 button#livelogs-pause-button:focus,
-#page-admin-tool-monitor-managerules a > button:focus,
+#page-admin-tool-monitor-managerules a>button:focus,
 input[type="submit"]:focus,
 button[type="submit"]:focus,
 input[type="reset"]:focus,
@@ -13955,25 +13580,25 @@ input#id_submitbutton:active,
 input#id_submitbutton2:active,
 .path-admin .buttons input[type="submit"]:active,
 td.submit input:active,
-#notice .singlebutton + .singlebutton input:active,
+#notice .singlebutton+.singlebutton input:active,
 #login.fixy input[type=submit]:active,
 button#local-joulegrader-preview-button:active,
 button.atto_equation_submit:active,
 .yui-skin-sam .yui-button:active,
 .yui3-button:active,
 .yui-button button:active,
-.felement.ftext input + button:active,
+.felement.ftext input+button:active,
 .header-button-group .btn:active,
 .btn.btn-primary:active,
 .btn.btn-default:active,
 .btn.btn-solid:active,
-.button-group > button:active,
+.button-group>button:active,
 input.form-submit:active,
 input[type="button"]:active,
 .moodle-dialogue-content button:active,
 button#restrictbygroup:active,
 button#livelogs-pause-button:active,
-#page-admin-tool-monitor-managerules a > button:active,
+#page-admin-tool-monitor-managerules a>button:active,
 input[type="submit"]:active,
 button[type="submit"]:active,
 input[type="reset"]:active,
@@ -13993,25 +13618,25 @@ input#id_submitbutton.active,
 input#id_submitbutton2.active,
 .path-admin .buttons input[type="submit"].active,
 td.submit input.active,
-#notice .singlebutton + .singlebutton input.active,
+#notice .singlebutton+.singlebutton input.active,
 #login.fixy input[type=submit].active,
 button#local-joulegrader-preview-button.active,
 button.atto_equation_submit.active,
 .yui-skin-sam .yui-button.active,
 .yui3-button.active,
 .yui-button button.active,
-.felement.ftext input + button.active,
+.felement.ftext input+button.active,
 .header-button-group .btn.active,
 .btn.btn-primary.active,
 .btn.btn-default.active,
 .btn.btn-solid.active,
-.button-group > button.active,
+.button-group>button.active,
 input.form-submit.active,
 input[type="button"].active,
 .moodle-dialogue-content button.active,
 button#restrictbygroup.active,
 button#livelogs-pause-button.active,
-#page-admin-tool-monitor-managerules a > button.active,
+#page-admin-tool-monitor-managerules a>button.active,
 input[type="submit"].active,
 button[type="submit"].active,
 input[type="reset"].active,
@@ -14037,25 +13662,25 @@ input#id_submitbutton[disabled],
 input#id_submitbutton2[disabled],
 .path-admin .buttons input[type="submit"][disabled],
 td.submit input[disabled],
-#notice .singlebutton + .singlebutton input[disabled],
+#notice .singlebutton+.singlebutton input[disabled],
 #login.fixy input[type=submit][disabled],
 button#local-joulegrader-preview-button[disabled],
 button.atto_equation_submit[disabled],
 .yui-skin-sam .yui-button[disabled],
 .yui3-button[disabled],
 .yui-button button[disabled],
-.felement.ftext input + button[disabled],
+.felement.ftext input+button[disabled],
 .header-button-group .btn[disabled],
 .btn.btn-primary[disabled],
 .btn.btn-default[disabled],
 .btn.btn-solid[disabled],
-.button-group > button[disabled],
+.button-group>button[disabled],
 input.form-submit[disabled],
 input[type="button"][disabled],
 .moodle-dialogue-content button[disabled],
 button#restrictbygroup[disabled],
 button#livelogs-pause-button[disabled],
-#page-admin-tool-monitor-managerules a > button[disabled],
+#page-admin-tool-monitor-managerules a>button[disabled],
 input[type="submit"][disabled],
 button[type="submit"][disabled],
 input[type="reset"][disabled],
@@ -14085,16 +13710,7 @@ input[type="reset"][disabled],
 .btn.btn-danger,
 .btn.btn-inverse,
 .btn.btn-link {
-    font-family:
-        "Roboto",
-        "Fira Sans",
-        "Segoe UI",
-        "HelveticaNeue-Light",
-        "Helvetica Neue Light",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     transition: all 0.4s ease-in-out;
     border-radius: 4px;
 }
@@ -14108,7 +13724,7 @@ input[type="reset"][disabled],
     color: #038dcc;
 }
 
-.editing.path-course-view section#region-main > .singlebutton input[type="submit"],
+.editing.path-course-view section#region-main>.singlebutton input[type="submit"],
 .editor_atto_toolbar button,
 #page-mast .singlebutton input[type="submit"] {
     box-shadow: none;
@@ -14156,12 +13772,15 @@ input[type="reset"][disabled],
 }
 
 /* highlight selected menu iteam logic */
+
 /*default */
+
 a[href="#sections"] {
     border-bottom: 0.3em solid #03a9f4;
 }
 
 /* moodle edit menus */
+
 .moodle-actionmenu[data-enhanced].show .menu a:hover,
 .moodle-actionmenu[data-enhanced].show .menu a:focus {
     color: #03a9f4;
@@ -14268,15 +13887,15 @@ li.snap-activity {
     color: #038dcc;
 }
 
-.yui-bootstrapped .yui-navset .yui-nav li > a,
-.yui-skin-sam .yui-navset .yui-nav li > a {
+.yui-bootstrapped .yui-navset .yui-nav li>a,
+.yui-skin-sam .yui-navset .yui-nav li>a {
     color: #03a9f4;
 }
 
-.yui-bootstrapped .yui-navset .yui-nav li > a:hover,
-.yui-skin-sam .yui-navset .yui-nav li > a:hover,
-.yui-bootstrapped .yui-navset .yui-nav li > a:focus,
-.yui-skin-sam .yui-navset .yui-nav li > a:focus {
+.yui-bootstrapped .yui-navset .yui-nav li>a:hover,
+.yui-skin-sam .yui-navset .yui-nav li>a:hover,
+.yui-bootstrapped .yui-navset .yui-nav li>a:focus,
+.yui-skin-sam .yui-navset .yui-nav li>a:focus {
     color: #038dcc;
 }
 
@@ -14289,8 +13908,8 @@ img.iconhelp:hover {
     background-color: #03a9f4;
 }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
     background-color: #03a9f4;
 }
 
@@ -14337,8 +13956,11 @@ img.iconhelp:hover {
 }
 
 /**setting:logo**/
+
 /**setting:snap-user-bootswatch**/
+
 /**setting:customcss**/
+
 body {
     margin: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;

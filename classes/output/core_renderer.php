@@ -1381,6 +1381,7 @@ HTML;
             $featurespots .= '<div class="row">' .$cards. '</div>';
             $featurespots .= $fsedit;
             $featurespots .= '</div>';
+            
 
             // Return feature spots.
             return $featurespots;
