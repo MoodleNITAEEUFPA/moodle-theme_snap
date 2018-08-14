@@ -87,9 +87,19 @@ $title = new lang_string('featurethreetext', 'theme_snap');
 $setting = new admin_setting_configtextarea($name, $title, $description, $default);
 $snapsettings->add($setting);
 
-// Feature spot link
-$name = 'theme_snap/fs_button_one';
-$title = new lang_string('featureonebutton', 'theme_snap');
+// Feature spot link ============>>>>> Add by William Silva.
+$name = 'theme_snap/fs_one_link';
+$title = new lang_string('featureonelink', 'theme_snap');
+$setting = new admin_setting_configtext($name, $title, $description, $default);
+$snapsettings->add($setting);
+
+$name = 'theme_snap/fs_two_link';
+$title = new lang_string('featuretwolink', 'theme_snap');
+$setting = new admin_setting_configtext($name, $title, $description, $default);
+$snapsettings->add($setting);
+
+$name = 'theme_snap/fs_three_link';
+$title = new lang_string('featurethreelink', 'theme_snap');
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $snapsettings->add($setting);
 
