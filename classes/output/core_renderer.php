@@ -1335,6 +1335,8 @@ HTML;
             $title = $feature . '_title';
             $text = $feature . '_text';
             $image = $feature . '_image';
+            $link = $feature . '_link'; /* Add by William Silva */
+
             if (!empty($PAGE->theme->settings->$title) && !empty($PAGE->theme->settings->$text)) {
                 $img = '';
                 if (!empty($PAGE->theme->settings->$image)) {
@@ -1342,7 +1344,7 @@ HTML;
                     $img = '<!--Card image-->
                     <img class="snap-feature-image" src="' .$url. '" alt="" role="presentation">';
                 }
-                $features[] = $this->feature_spot_card($PAGE->theme->settings->$title, $img, $PAGE->theme->settings->$text);
+                $features[] = $this->feature_spot_card($PAGE->theme->settings->$title, $img, $PAGE->theme->settings->$text,$PAGE->theme->settings->$link);
             }
         }
 
@@ -1396,11 +1398,13 @@ HTML;
      * @param string $text
      * @return string
      */
-    protected function feature_spot_card($title, $image, $text) {
+    protected function feature_spot_card($title, $image, $text, $link) {
         $card = '<div class="snap-feature">
             <!--Card content-->
             <div class="snap-feature-block">
-                ' .$image. '
+                <a href='.$link.' target="_blank">
+                    ' .$image. '
+                </a>
                 <!--Title-->
                 <h3 class="snap-feature-title h5">' .s($title). '</h3>
                 <!--Content-->

@@ -132,6 +132,11 @@ $string['featurethreetext'] = 'Conteúdo do recurso 3';
 $string['featureoneimage'] = 'Imagem do recurso 1';
 $string['featuretwoimage'] = 'Imagem do recurso 2';
 $string['featurethreeimage'] = 'Imagem do recurso 3';
+//extra strings
+$string['featureonelink'] = 'Link imagem 1';
+$string['featuretwolink'] = 'Link imagem 2';
+$string['featurethreelink'] = 'Link imagem 3';
+
 $string['featuredcourses'] = 'Cursos apresentados';
 $string['featuredcourseshelp'] = 'Destaque até 8 cursos apresentados para a página inicial do seu site. Digite a ID do curso para apresentar um curso.';
 $string['featuredcoursesheading'] = 'Títulos de cursos apresentados';
@@ -287,3 +292,4 @@ $string['xofysubmitted'] = '{$a->completed} de {$a->participants} enviaram';
 $string['xungraded'] = '{$a} não avaliados';
 $string['youtube'] = 'YouTube';
 $string['youtubedesc'] = 'O URL do seu canal do YouTube.';
+
