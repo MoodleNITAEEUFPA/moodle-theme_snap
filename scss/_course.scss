@@ -37,6 +37,7 @@ section#region-main
 
 /* stylelint-disable declaration-no-important*/
 
+
 // Course page  - turn editing on button.
 .format-topics,
 .format-weeks {
@@ -55,6 +56,11 @@ section#region-main
             display: block;
         }
     }
+}
+
+//oculting coverimage only in course
+#page-course-view-topics #snap-coverimagecontrol{
+    display: none;
 }
 
 // Do something different to support folderview...
@@ -255,6 +261,7 @@ li.section:focus {
     padding: .5rem 0;
     margin-top: 0;
     white-space: normal !important;
+    text-align: center;
 }
 
 .path-course-view .section .summary {

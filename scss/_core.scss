@@ -103,6 +103,12 @@ table.boxwidthwide {
 // Login & sign up page
 // -------------------------
 
+#page-login-index {
+    #mr-nav{
+    display:none;
+    }
+}
+
 #page-login-index,
 #page-login-signup {
     #region-main {
@@ -1216,7 +1222,7 @@ header#page-header
 }
 @include media-breakpoint-up(md) {
     #page-site-index #page-mast {
-        width: 50%;
+        width: 100%;
         margin: 20vh 4%;
     }
 }
@@ -3015,6 +3021,7 @@ body:not(.pagelayout-course) #moodle-footer {
 // Custom menu lists.
 @include media-breakpoint-up(sm) {
     #moodle-custom-menu .list-unstyled {
+        display: none;
         column-count: 2;
     }
 }
@@ -3307,15 +3314,25 @@ table th img.iconhelp {
 /* Feature spots. */
 #snap-feature-spots {
     padding: 2em 4%;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
 
     .snap-feature-spots-heading {
         padding-top: 0;
         margin-top: 0;
+        text-align: center;
     }
 
-    .snap-feature-image {
-        max-width: 200px;
+    .snap-feature-image {        
+        display: block; 
+        margin-left:auto; 
+        margin-right:auto;
+        max-width:100%; 
+        height:auto;
+    }
+    .snap-feature-title.h5{
+        text-align:center;
+        text-shadow: 1px 1px 3px rgba(0,3,5,0.91);
     }
 }
 

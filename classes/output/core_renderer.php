@@ -736,7 +736,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
                 $wwwroot = str_replace("http://", "https://", $CFG->wwwroot);
             }
             if (local::current_url_path() != '/login/index.php') {
-                $output .= $this->login_button();
+               $output .= $this->login_button();
             }
         } else {
             $userpicture = new user_picture($USER);
