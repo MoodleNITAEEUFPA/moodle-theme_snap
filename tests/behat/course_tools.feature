@@ -93,7 +93,7 @@ Feature: When the moodle theme is set to Snap, a course tools section is availab
 
   @javascript
   Scenario Outline: Course tools show automatically for single activity format set to hsuforum of types general / single.
-    Given I am using Moodlerooms
+    Given I am using Blackboards
     And the course format for "C1" is set to "singleactivity" with the following settings:
       | name      | activitytype |
       | value     | hsuforum        |

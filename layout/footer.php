@@ -20,7 +20,7 @@
  * way.
  *
  * @package   theme_snap
- * @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
+ * @copyright Copyright (c) 2015 Blackboards Inc. (http://www.moodlerooms.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
@@ -95,7 +95,7 @@ if (!empty($custommenu)) {
             }
             if (core_component::get_component_directory('local_mrooms') !== null) {
                 $langkey   = \local_mrooms\kb_link::resolve_language_key();
-                $builtwith = html_writer::link("https://$langkey.help.blackboard.com/Moodlerooms",
+                $builtwith = html_writer::link("https://$langkey.help.blackboard.com/Blackboards",
                         get_string('pluginname', 'theme_snap'),
                         ['target' => '_blank', 'title' => get_string('help', 'theme_snap')]
                 );

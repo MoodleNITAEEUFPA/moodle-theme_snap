@@ -16,7 +16,7 @@
 # Tests course edting mode.
 #
 # @package    theme_snap
-# @copyright Copyright (c) 2015 Moodlerooms Inc. (http://www.moodlerooms.com)
+# @copyright Copyright (c) 2015 Blackboards Inc. (http://www.moodlerooms.com)
 # @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 
 
@@ -84,7 +84,7 @@ Feature: When the moodle theme is set to Snap, teachers only see block edit cont
 
   @javascript
   Scenario: In edit mode on a folderview course, teacher can see sections whilst editing on.
-    Given I am using Moodlerooms
+    Given I am using Blackboards
     And the following "courses" exist:
       | fullname | shortname | category | format     |
       | Course 3 | C3        | 0        | folderview |

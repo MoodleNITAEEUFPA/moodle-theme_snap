@@ -16,7 +16,7 @@
 # Tests for Snap personal menu conversation badge count.
 #
 # @package    theme_snap
-# @copyright  Copyright (c) 2017 Moodlerooms Inc. (http://www.moodlerooms.com)
+# @copyright  Copyright (c) 2017 Blackboards Inc. (http://www.moodlerooms.com)
 # @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 
 
