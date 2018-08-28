@@ -113,10 +113,11 @@
 .block-region .block {
     margin: 0 auto 1em;
     padding: 0 2%;
-    border: 0;
     box-shadow: none;
     background-color: transparent;
     max-width: 50.5em;
+    border:1px solid #e7e7e7 !important; 
+    border-radius:5px;
 }
 
 body.path-site .block-region .block {
