@@ -79,9 +79,10 @@ echo '</div>';
 <?php
 /* Moodle custom menu. */
 if (!empty($custommenu)) {
-    echo '<div id="moodle-custom-menu"><br>';
+    echo '<div id="moodle-custom-menu">';
     echo $custommenu;
     echo '</div>';
+    echo '<hr />';
 }
 ?>
 
@@ -89,10 +90,11 @@ if (!empty($custommenu)) {
     <div id="mrooms-footer" class="helplink col-sm-6">
         <small>
             <?php
+            /*
             if ($OUTPUT->page_doc_link()) {
                 echo $OUTPUT->page_doc_link();
                 echo "<br>";
-            }
+            }*/
             if (core_component::get_component_directory('local_mrooms') !== null) {
                 $langkey   = \local_mrooms\kb_link::resolve_language_key();
                 $builtwith = html_writer::link("https://$langkey.help.blackboard.com/Blackboards",
