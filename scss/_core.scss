@@ -540,7 +540,6 @@ a.yui3-button,
     // Imitate btn.btn-secondary CSS for buttons without proper
     // Bootstrap classes applied to them.
     transition: all 0.4s ease-in-out;
-    background: transparent;
     border-radius: 4px;
     border-width: 1px;
     border-style: solid;
@@ -3020,7 +3019,7 @@ body:not(.pagelayout-course) #moodle-footer {
 
 // Custom menu lists.
 @include media-breakpoint-up(sm) {
-    #moodle-custom-menu .list-unstyled {        
+    #moodle-custom-menu .list-unstyled {
         column-count: 2;
     }
 }

@@ -5496,7 +5496,6 @@ button#livelogs-pause-button,
 #page-admin-tool-monitor-managerules a>button,
 input[type="reset"] {
     font-family: "Roboto", "Fira Sans", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: transparent;
 }
 
 .section-modchooser-text:hover,
