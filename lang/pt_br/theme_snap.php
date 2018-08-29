@@ -292,4 +292,4 @@ $string['xofysubmitted'] = '{$a->completed} de {$a->participants} enviaram';
 $string['xungraded'] = '{$a} não avaliados';
 $string['youtube'] = 'YouTube';
 $string['youtubedesc'] = 'O URL do seu canal do YouTube.';
-
+$string['showallsectionsdisabled'] = 'Devido o design do tema,"Mostrar todos os tópicos em uma página" não está disponível no Snap.';

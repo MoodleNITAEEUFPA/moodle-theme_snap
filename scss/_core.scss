@@ -2981,8 +2981,8 @@ body:not(.pagelayout-course) #moodle-footer {
     padding-top: 3em;
     padding-bottom: 1em;
     clear: both;
-    color: $gray-lighter;
-    background-color: $body-color;
+    color: #38322b;
+    background-image: linear-gradient(180deg, #9b8c7a 0, #ffffff 100%);
 }
 
 #snap-footer-content,
@@ -2997,7 +2997,7 @@ body:not(.pagelayout-course) #moodle-footer {
     h4,
     h5,
     h6 {
-        color: $gray-lighter;
+        color: #38322b;
     }
 
     .helplink img.poweredbylogo {
@@ -3010,7 +3010,7 @@ body:not(.pagelayout-course) #moodle-footer {
 
     a:not(.btn),
     a:not(.btn):hover {
-        color: #fff;
+        color: #38322b;
     }
 
     .langmenu {
@@ -3020,8 +3020,7 @@ body:not(.pagelayout-course) #moodle-footer {
 
 // Custom menu lists.
 @include media-breakpoint-up(sm) {
-    #moodle-custom-menu .list-unstyled {
-        display: none;
+    #moodle-custom-menu .list-unstyled {        
         column-count: 2;
     }
 }

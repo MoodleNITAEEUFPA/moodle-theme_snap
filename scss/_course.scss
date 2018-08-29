@@ -605,8 +605,9 @@ body.format-flexpage .singlebutton {
     }
 
     .snap-assettype {
-        font-size: $font-size-sm;
-        text-transform: uppercase;
+        /*font-size: $font-size-sm;
+        text-transform: uppercase;*/
+        display:none;
     }
 
     .activityinstance {
