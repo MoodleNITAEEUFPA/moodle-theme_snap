@@ -132,11 +132,9 @@ $string['featurethreetext'] = 'Conteúdo do recurso 3';
 $string['featureoneimage'] = 'Imagem do recurso 1';
 $string['featuretwoimage'] = 'Imagem do recurso 2';
 $string['featurethreeimage'] = 'Imagem do recurso 3';
-//extra strings
 $string['featureonelink'] = 'Link imagem 1';
 $string['featuretwolink'] = 'Link imagem 2';
 $string['featurethreelink'] = 'Link imagem 3';
-
 $string['featuredcourses'] = 'Cursos apresentados';
 $string['featuredcourseshelp'] = 'Destaque até 8 cursos apresentados para a página inicial do seu site. Digite a ID do curso para apresentar um curso.';
 $string['featuredcoursesheading'] = 'Títulos de cursos apresentados';
@@ -236,7 +234,7 @@ $string['pld'] = 'PLD';
 $string['pluginname'] = 'Snap';
 $string['poster'] = 'Imagem de capa';
 $string['posterdesc'] = 'Uma imagem de cabeçalho grande para a página inicial do seu site. Imagens de paisagem (1200 x 600 pixels) ou maiores funcionam melhor.';
-$string['poweredbyrunby'] = 'Criado com o <a href="http://moodlerooms.com/" target="_blank">Blackboard Open LMS</a>, modificado por CITE/NITAE², 
+$string['poweredbyrunby'] = 'Construído com o <a href="http://moodlerooms.com/" target="_blank">Blackboard Open LMS</a>, modificado por CITE/NITAE², 
     desenvolvido com <a href="http://www.moodle.com/" target="_blank">Moodle</a>.<br>                                                                                                                                            
     Copyright &#169; '.date('Y').' Blackboard Inc. Todos os direitos reservados.';
 $string['previoussection'] = 'Seção anterior';

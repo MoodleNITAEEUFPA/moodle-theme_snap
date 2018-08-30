@@ -144,11 +144,9 @@ $string['featurethreetext'] = 'Feature 3 content';
 $string['featureoneimage'] = 'Feature 1 image';
 $string['featuretwoimage'] = 'Feature 2 image';
 $string['featurethreeimage'] = 'Feature 3 image';
-//extra strings
 $string['featureonelink'] = 'Feature 1 Link';
 $string['featuretwolink'] = 'Feature 2 Link';
 $string['featurethreelink'] = 'Feature 3 Link';
-
 $string['featuredcourses'] = 'Featured courses';
 $string['featuredcourseshelp'] = 'Highlight up to 8 featured courses to your site&#8217;s front page. Type the Course ID to feature a course.';
 $string['featuredcoursesheading'] = 'Featured courses heading';
