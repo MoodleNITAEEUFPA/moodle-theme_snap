@@ -5212,13 +5212,13 @@ html {
 }
 
 ::-moz-selection {
-    background: #fe57a1;
+    background: #3390ff;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #fe57a1;
+    background: #3390ff;
     color: #fff;
     text-shadow: none;
 }
@@ -6422,7 +6422,7 @@ http://blog.rodneyrehm.de/archives/34-iOS7-Mobile-Safari-And-Viewport-Units.html
 
 @media screen and (min-width: 768px) {
     #page-site-index #page-mast {
-        width: 100%;
+        width: auto;
         margin: 11vh 0;
     }
 }
@@ -13975,4 +13975,8 @@ body {
     display: block;
     height: auto;
     width: auto;
+}
+
+.parallax-window {
+    min-height: 400px;
 }
