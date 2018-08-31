@@ -230,13 +230,13 @@ a {
 }
 
 ::-moz-selection {
-    background: #fe57a1;
+    background: #531c11;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #fe57a1;
+    background: #531c11;
     color: #fff;
     text-shadow: none;
 }
@@ -1245,9 +1245,7 @@ header#page-header
     .carousel-caption {
         // Reset bootstrap styles.
         left: 4%;
-        bottom: inherit;
         text-align: left;
-        top: 20vh;
         width: 50%;
         text-shadow: none;
         color: #666;
@@ -2977,7 +2975,7 @@ body:not(.pagelayout-course) #moodle-footer {
 }
 
 #moodle-footer {
-    padding-top: 3em;
+    /*padding-top: 3em;*/
     padding-bottom: 1em;
     clear: both;
     color: #38322b;

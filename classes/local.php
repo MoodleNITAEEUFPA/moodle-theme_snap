@@ -1220,7 +1220,7 @@ class local {
         $css = '';
         $coverurl = self::course_cat_coverimage_url($catid);
         if ($coverurl) {
-            $css = "#page-header {background-image: url($coverurl);}";
+            $css = "#page-header {background-image: url($coverurl); background-size: 100%; background-repeat: no-repeat;}";
         }
         return $css;
     }
@@ -1235,7 +1235,7 @@ class local {
         $css = '';
         $coverurl = self::course_coverimage_url($courseid);
         if ($coverurl) {
-            $css = "#page-header {background-image: url($coverurl);}";
+            $css = "#page-header {background-image: url($coverurl); background-size: 100%; background-repeat: no-repeat;}";
         }
         return $css;
     }
