@@ -1221,7 +1221,7 @@ header#page-header
 }
 @include media-breakpoint-up(md) {
     #page-site-index #page-mast {
-        width: 100%;
+        width: auto;
         margin: 20vh 4%;
     }
 }
