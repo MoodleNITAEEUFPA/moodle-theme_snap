@@ -897,6 +897,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
      *
      * @return string
      */
+    /*
     protected function render_custom_menu(\custom_menu $menu) {
         if (!$menu->has_children()) {
             return '';
@@ -913,7 +914,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
         $content = html_writer::tag('ul', $content, array('class' => $class));
 
         return $content;
-    }
+    }*/
 
 
     /**
@@ -1335,7 +1336,7 @@ HTML;
             $title = $feature . '_title';
             $text = $feature . '_text';
             $image = $feature . '_image';
-            $link = $feature . '_link'; /* Add by William Silva */
+            $link = $feature . '_link';
 
             if (!empty($PAGE->theme->settings->$title) && !empty($PAGE->theme->settings->$text)) {
                 $img = '';
@@ -1409,6 +1410,7 @@ HTML;
                 <h3 class="snap-feature-title h5">' .s($title). '</h3>
                 <!--Content-->
                 <p class="snap-feature-text">' .s($text). '</p>
+		<a class="btn btn-primary snap-login-button pull-right" target="_blank"  href="'.$link.'">'.get_string('readmore', 'theme_snap').'</a>
             </div>
             <!--/.Card content-->
         </div>';
