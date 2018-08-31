@@ -230,13 +230,13 @@ a {
 }
 
 ::-moz-selection {
-    background: #531c11;
+    background: #3390ff;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #531c11;
+    background: #3390ff;
     color: #fff;
     text-shadow: none;
 }
@@ -3014,7 +3014,7 @@ body:not(.pagelayout-course) #moodle-footer {
 
 // Custom menu lists.
 @include media-breakpoint-up(sm) {
-    #moodle-custom-menu .list-unstyled {
+    #moodle-custom-menu {
         column-count: 2;
     }
 }
