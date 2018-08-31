@@ -679,7 +679,6 @@ a.yui3-button,
         width: 36px;
         margin: .3em 1em 0 .3em;
         height: auto;
-        vertical-align: baseline;
     }
 
     // media o content
@@ -1238,7 +1237,7 @@ header#page-header
 
     .carousel-slide {
         background-position: center center;
-        background-size: cover;
+        background-size: contain;
         background-color: white;
     }
 
@@ -1246,7 +1245,7 @@ header#page-header
         // Reset bootstrap styles.
         left: 4%;
         text-align: left;
-        width: 50%;
+        width: 100%;
         text-shadow: none;
         color: #666;
         // Add snap cover styles.
@@ -2283,13 +2282,11 @@ ul.events-new + ul.events-underway {
         }
 
         td.picture {
-            width: 32%;
             display: inline;
             margin-right: 2%;
         }
 
         td.author {
-            width: 68%;
             display: inline;
         }
     }
@@ -3500,14 +3497,14 @@ button.snap-icon-toggle {
 
 // Cover image control.
 #snap-coverimagecontrol {
-    float: right;
+    float: none;
     margin-left: 1em;
     display: inline-block;
     opacity: 0;
     @include alakazam;
 
     .btn {
-        border-color: transparent;
+        /*border-color: transparent;*/
         margin-left: 1em;
     }
 }
