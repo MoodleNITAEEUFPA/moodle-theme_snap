@@ -3014,7 +3014,7 @@ body:not(.pagelayout-course) #moodle-footer {
 
 // Custom menu lists.
 @include media-breakpoint-up(sm) {
-    #moodle-custom-menu {
+    #moodle-custom-menu .list-unstyled {
         column-count: 2;
     }
 }

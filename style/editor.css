@@ -854,10 +854,10 @@ pre code {
     padding-right: 15px;
 }
 
-.row {
+/*.row {
     margin-left: -15px;
     margin-right: -15px;
-}
+}*/
 
 .col-xs-1,
 .col-sm-1,
@@ -9096,11 +9096,11 @@ div.editor_atto_toolbar div.atto_group {
 }
 
 .snap-feature-text{
-    font-size: .8em;
+    font-size: .85em;
 }
 
 .snap-feature-div{
-    min-height: 200px;
+    min-height: 150px;
 }
 
 #page-admin-setting-themesnapfeaturespots #admin-fs_heading input {
