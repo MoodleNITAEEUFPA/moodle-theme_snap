@@ -3327,11 +3327,14 @@ table th img.iconhelp {
         text-align:center;
         text-shadow: 1px 1px 3px rgba(0,3,5,0.91);
     }
+    .snap-feature-block{
+        max-width: 300px;
+    }
     .snap-feature-text{
-        font-size: .8em;
+        font-size: .85em;
     }
     .snap-feature-div{
-        min-height: 200px;
+        min-height: 150px;
     }
 }
 
