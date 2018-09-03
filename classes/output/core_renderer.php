@@ -897,7 +897,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
      *
      * @return string
      */
-    /*
+    
     protected function render_custom_menu(\custom_menu $menu) {
         if (!$menu->has_children()) {
             return '';
@@ -914,7 +914,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
         $content = html_writer::tag('ul', $content, array('class' => $class));
 
         return $content;
-    }*/
+    }
 
 
     /**
@@ -1409,7 +1409,9 @@ HTML;
                 <!--Title-->
                 <h3 class="snap-feature-title h5">' .s($title). '</h3>
                 <!--Content-->
+                <div class="snap-feature-div">
                 <p class="snap-feature-text">' .s($text). '</p>
+                </div>
 		<a class="btn btn-primary snap-login-button pull-right" target="_blank"  href="'.$link.'">'.get_string('readmore', 'theme_snap').'</a>
             </div>
             <!--/.Card content-->
