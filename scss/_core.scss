@@ -3327,7 +3327,14 @@ table th img.iconhelp {
         text-align:center;
         text-shadow: 1px 1px 3px rgba(0,3,5,0.91);
     }
+    .snap-feature-text{
+        font-size: .8em;
+    }
+    .snap-feature-div{
+        min-height: 200px;
+    }
 }
+
 
 /* Featured courses section. */
 @include media-breakpoint-up(md) {

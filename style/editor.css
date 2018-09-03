@@ -9095,6 +9095,14 @@ div.editor_atto_toolbar div.atto_group {
     max-width: 200px;
 }
 
+.snap-feature-text{
+    font-size: .8em;
+}
+
+.snap-feature-div{
+    min-height: 200px;
+}
+
 #page-admin-setting-themesnapfeaturespots #admin-fs_heading input {
     font-weight: 300;
     line-height: 1.5;
