@@ -76,25 +76,11 @@ echo '</div>';
 ?>
 
 
-<?php
-/* Moodle custom menu. */
-if (!empty($custommenu)) {
-    echo '<div id="moodle-custom-menu">';
-    echo $custommenu;
-    echo '</div>';
-    echo '<hr />';
-}
-?>
-
 <div class="row">
-    <div id="mrooms-footer" class="helplink col-sm-6">
+    <hr />
+    <div id="mrooms-footer" class="helplink col-sm-6">        
         <small>
             <?php
-            /*
-            if ($OUTPUT->page_doc_link()) {
-                echo $OUTPUT->page_doc_link();
-                echo "<br>";
-            }*/
             if (core_component::get_component_directory('local_mrooms') !== null) {
                 $langkey   = \local_mrooms\kb_link::resolve_language_key();
                 $builtwith = html_writer::link("https://$langkey.help.blackboard.com/Blackboards",
@@ -107,9 +93,6 @@ if (!empty($custommenu)) {
             echo get_string('poweredbyrunby', 'theme_snap', $builtwith);
             ?>
         </small>
-    </div>
-    <div class="langmenu col-sm-6 text-right">
-        <?php echo $OUTPUT->lang_menu(); ?>
     </div>
 </div>
 

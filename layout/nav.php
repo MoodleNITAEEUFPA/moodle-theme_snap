@@ -31,6 +31,11 @@ use theme_snap\renderables\bb_dashboard_link;
 
 ?>
 <header id='mr-nav' class='clearfix moodle-has-zindex'>
+<div class="navbar-nav hidden-md-down" style="margin-left: 15%;">
+<?php
+echo $OUTPUT->custom_menu();
+?>
+</div>
 <div class="pull-right js-only">
 <?php
 if (class_exists('local_geniusws\navigation')) {
@@ -46,8 +51,11 @@ echo $OUTPUT->render($settingslink);
 echo '<span class="hidden-md-down">';
 echo core_renderer::search_box();
 echo '</span>';
+
+
 ?>
 </div>
+
 
 <?php
 $sitefullname = format_string($SITE->fullname);
@@ -63,8 +71,13 @@ if (!empty($PAGE->theme->settings->logo)) {
 }
 
 echo html_writer::link($CFG->wwwroot, $sitefullname, $attrs);
+
 ?>
+
+
+
 </header>
 
 <?php
 echo $OUTPUT->personal_menu();
+
