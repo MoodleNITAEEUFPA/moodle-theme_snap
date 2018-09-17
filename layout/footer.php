@@ -76,13 +76,15 @@ echo '</div>';
 ?>
 
 
+
+
 <div class="row">
     <hr />
     <div id="mrooms-footer" class="helplink col-sm-6">        
         <small>
             <?php
             if (core_component::get_component_directory('local_mrooms') !== null) {
-                $langkey   = \local_mrooms\kb_link::resolve_language_key();
+                /*$langkey   = \local_mrooms\kb_link::resolve_language_key();*/
                 $builtwith = html_writer::link("https://$langkey.help.blackboard.com/Blackboards",
                         get_string('pluginname', 'theme_snap'),
                         ['target' => '_blank', 'title' => get_string('help', 'theme_snap')]

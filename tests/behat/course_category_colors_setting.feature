@@ -101,7 +101,7 @@ Feature: When the moodle theme is set to Snap, sets a color per category.
     And I follow "Courses"
     And I follow "Browse all courses"
     And I follow "Cat 30"
-    And I check element "a.btn.btn-secondary" with color "#ff7f41"
+    And I check element "a.btn.btn-secondary" with color "#531c11"
 
   @javascript
   Scenario: Check category course color from nearest parent in hierarchy for teacher and student.

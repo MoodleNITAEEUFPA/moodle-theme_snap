@@ -1220,7 +1220,7 @@ class local {
         $css = '';
         $coverurl = self::course_cat_coverimage_url($catid);
         if ($coverurl) {
-            $css = "#page-header {background-image: url($coverurl); background-size: 100%; background-repeat: no-repeat;}";
+            $css = "#page-header {background-image: url($coverurl); background-size: contain; background-repeat: no-repeat; background-position: center;}";
         }
         return $css;
     }
@@ -1235,7 +1235,7 @@ class local {
         $css = '';
         $coverurl = self::course_coverimage_url($courseid);
         if ($coverurl) {
-            $css = "#page-header {background-image: url($coverurl); background-size: 100%; background-repeat: no-repeat;}";
+            $css = "#page-header {background-image: url($coverurl); background-size: contain; background-repeat: no-repeat; background-position: center;}";
         }
         return $css;
     }
@@ -1250,7 +1250,7 @@ class local {
         if (!$coverurl) {
             return '';
         }
-        return "#page-site-index #page-header, #page-login-index #page {background-image: url($coverurl);}";
+        return "#page-site-index #page-header, #page-login-index #page {background-image: url($coverurl); background-size: cover;}";
     }
 
     /**

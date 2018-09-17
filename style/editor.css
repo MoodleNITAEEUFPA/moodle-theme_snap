@@ -439,36 +439,36 @@ h6 .small,
 
 h1,
 .h1 {
-    font-size: 54px;
+    font-size: 60px;
 }
 
 h2,
 .h2 {
-    font-size: 46px;
+    font-size: 50px;
 }
 
 h3,
 .h3 {
-    font-size: 42px;
+    font-size: 46px;
 }
 
 h4,
 .h4 {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 h5,
 .h5 {
-    font-size: 29px;
+    font-size: 33px;
 }
 
 h6,
 .h6 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 p {
-    margin: 0 0 14px;
+    margin: 0 0 18px;
 }
 
 .lead {
@@ -854,10 +854,18 @@ pre code {
     padding-right: 15px;
 }
 
-/*.row {
+.row {
     margin-left: -15px;
     margin-right: -15px;
-}*/
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 .col-xs-1,
 .col-sm-1,
@@ -6134,7 +6142,7 @@ header#page-header
 .mast-image .breadcrumb a,
 .mast-image .breadcrumb a:visited {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    color: white;
+    color: white !important;
 }
 
 .mast-image #page-mast h1 a,
@@ -9082,7 +9090,7 @@ div.editor_atto_toolbar div.atto_group {
 /* Feature spots. */
 
 #snap-feature-spots {
-    padding: 2em 4%;
+    padding: 2em 10%;
     text-align: center;
 }
 
@@ -9091,17 +9099,11 @@ div.editor_atto_toolbar div.atto_group {
     margin-top: 0;
 }
 
-#snap-feature-spots .snap-feature-image {
-    max-width: 200px;
-}
 
 .snap-feature-text{
     font-size: .85em;
 }
 
-.snap-feature-div{
-    min-height: 150px;
-}
 
 #page-admin-setting-themesnapfeaturespots #admin-fs_heading input {
     font-weight: 300;

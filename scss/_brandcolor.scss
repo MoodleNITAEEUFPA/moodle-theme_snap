@@ -29,6 +29,14 @@ $light-grey-btn: #cccccc;
 $lighter-grey-btn: #e6e6e6;
 
 .theme-snap {
+    div.moodle-dialogue.filepicker a.nav-link.active {
+        color: #fff;
+        background-color: $brand-primary;
+        &:hover {
+            background-color: darken($brand-primary, 8%);
+            color: #fff;
+        }
+    }
 
     a:not(.btn):not(.dropdown-item):not(.snap-due-date):not(.yui3-button),
     .btn-link,

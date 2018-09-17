@@ -914,8 +914,8 @@ class core_renderer extends \theme_boost\output\core_renderer {
         $content = html_writer::tag('ul', $content, array('class' => $class));
 
         return $content;
-    }*/
-
+    }
+    */
 
     /**
      * Output custom menu items as flat list.
@@ -1358,10 +1358,10 @@ HTML;
 
             $colclass = '';
             if ($fscount === 2) {
-                $colclass = 'col-sm-6'; // Two cards = 50%.
+                $colclass = 'col-md-6'; // Two cards = 50%.
             }
-            if ($fscount === 3) {
-                $colclass = 'col-sm-4'; // Three cards = 33.3%.
+            elseif ($fscount === 3) {
+                $colclass = 'col-md-4'; // Three cards = 33.3%.
             }
 
             $cards = '';
@@ -1381,7 +1381,7 @@ HTML;
             // Build feature spots.
             $featurespots = '<div id="snap-feature-spots">';
             $featurespots .= $fstitle;
-            $featurespots .= '<div class="row">' .$cards. '</div>';
+            $featurespots .= '<div class="row row-eq-height">' .$cards. '</div>';
             $featurespots .= $fsedit;
             $featurespots .= '</div>';
             
@@ -1409,10 +1409,11 @@ HTML;
                 <!--Title-->
                 <h3 class="snap-feature-title h5">' .s($title). '</h3>
                 <!--Content-->
-                <div class="snap-feature-div">
+                <div style="display:flex">
                 <p class="snap-feature-text">' .s($text). '</p>
                 </div>
-		<a class="btn btn-primary snap-login-button pull-right" target="_blank"  href="'.$link.'">'.get_string('readmore', 'theme_snap').'</a>
+                <br />
+                <a aria-haspopup="true" class="btn btn-primary" target="_blank"  href="'.$link.'">' .get_string('readmore', 'theme_snap'). '</a>
             </div>
             <!--/.Card content-->
         </div>';
@@ -1488,7 +1489,7 @@ HTML;
      * Override parent function so that all courses (except the front page) skip the 'turn editing on' button.
      */
     protected function render_navigation_node(navigation_node $item) {
-        if ($item->action instanceof moodle_url) {
+       if ($item->action instanceof moodle_url) {
             // Hide the course 'turn editing on' link.
             $iscoursepath = $item->action->get_path() === '/course/view.php';
             $iseditlink = $item->action->get_param('edit') === 'on';
