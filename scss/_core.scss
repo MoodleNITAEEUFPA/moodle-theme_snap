@@ -3306,7 +3306,7 @@ table th img.iconhelp {
 
 /* Feature spots. */
 #snap-feature-spots {
-    padding: 2em 4%;
+    padding: 2em 10%;
     text-align: justify;
     text-justify: inter-word;
 
@@ -3315,7 +3315,6 @@ table th img.iconhelp {
         margin-top: 0;
         text-align: center;
     }
-
     .snap-feature-image {        
         display: block; 
         margin-left:auto; 
@@ -3326,9 +3325,6 @@ table th img.iconhelp {
     .snap-feature-title.h5{
         text-align:center;
         text-shadow: 1px 1px 3px rgba(0,3,5,0.91);
-    }
-    .snap-feature-block{
-        max-width: 300px;
     }
     .snap-feature-text{
         font-size: .85em;

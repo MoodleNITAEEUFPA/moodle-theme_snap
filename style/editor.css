@@ -859,14 +859,6 @@ pre code {
     margin-right: -15px;
 }
 
-.row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
 .col-xs-1,
 .col-sm-1,
 .col-md-1,
@@ -11908,6 +11900,15 @@ fieldset[disabled] a#changenumsections .reduce-sections {
     .fixy #snap-pm-close {
         margin-top: 1rem;
     }
+    #snap-feature-spots .col-md-4{
+        float: none;
+        display: table-cell;
+        padding-bottom: 3.5em; 
+     }
+     p.fbutton{
+         position: absolute;
+         bottom: 0;
+     }
 }
 
 .notloggedin header .snap-login-button {

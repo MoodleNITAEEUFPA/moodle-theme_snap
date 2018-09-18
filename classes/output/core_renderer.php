@@ -1381,7 +1381,7 @@ HTML;
             // Build feature spots.
             $featurespots = '<div id="snap-feature-spots">';
             $featurespots .= $fstitle;
-            $featurespots .= '<div class="row row-eq-height">' .$cards. '</div>';
+            $featurespots .= '<div class="row">' .$cards. '</div>';
             $featurespots .= $fsedit;
             $featurespots .= '</div>';
             
@@ -1409,11 +1409,12 @@ HTML;
                 <!--Title-->
                 <h3 class="snap-feature-title h5">' .s($title). '</h3>
                 <!--Content-->
-                <div style="display:flex">
+                <div>
                 <p class="snap-feature-text">' .s($text). '</p>
                 </div>
-                <br />
+                <p class="fbutton">
                 <a aria-haspopup="true" class="btn btn-primary" target="_blank"  href="'.$link.'">' .get_string('readmore', 'theme_snap'). '</a>
+                </p>
             </div>
             <!--/.Card content-->
         </div>';
