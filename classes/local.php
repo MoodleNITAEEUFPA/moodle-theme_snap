@@ -1250,7 +1250,7 @@ class local {
         if (!$coverurl) {
             return '';
         }
-        return "#page-site-index #page-header, #page-login-index #page {background-image: url($coverurl); background-size: cover;}";
+        return "#page-site-index #page-header, #page-login-index #page {background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url($coverurl); background-size: cover;}";
     }
 
     /**
