@@ -231,7 +231,7 @@ $string['pld'] = 'PLD';
 $string['pluginname'] = 'Snap';
 $string['poster'] = 'Imagen de tapa';
 $string['posterdesc'] = 'Imagen de gran tamaño para la página principal del sitio. Las imágenes apaisadas (de 1200 x 600 píxeles) o de mayor tamaño son la mejor opción.';
-$string['poweredbyrunby'] = 'Diseñado con <a href="http://moodlerooms.com/" target="_blank">Blackboards</a>, alterado por CITE/NITAE²,
+$string['poweredbyrunby'] = 'Diseñado con <a href="http://www.blackboard.com/" target="_blank">Blackboards</a>, alterado por CITE/NITAE²,
      con tecnología de <a href="http://www.moodle.com/" target="_blank">Moodle</a>.<br>
     Copyright &#169; '.date('Y').' Blackboard Inc. Todos los derechos reservados.';
 $string['previoussection'] = 'Sección anterior';

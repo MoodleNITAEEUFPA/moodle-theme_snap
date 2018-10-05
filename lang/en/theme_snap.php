@@ -256,7 +256,7 @@ $string['pld'] = 'PLD';
 $string['pluginname'] = 'Snap';
 $string['poster'] = 'Cover image';
 $string['posterdesc'] = 'A large header image for the front page of your site. Landscape images (1200 x 600 pixels) or larger work best.';
-$string['poweredbyrunby'] = 'Built with <a href="http://moodlerooms.com/" target="_blank">Blackboard Open LMS</a>, altered by CITE/NITAE²,
+$string['poweredbyrunby'] = 'Built with <a href="http://www.blackboard.com/" target="_blank">Blackboard Open LMS</a>, altered by CITE/NITAE²,
      powered by <a href="http://www.moodle.com/" target="_blank">Moodle</a>.<br>
     Copyright &#169; '.date('Y').' Blackboard Inc, All Rights Reserved.';
 $string['previoussection'] = 'Previous section';
