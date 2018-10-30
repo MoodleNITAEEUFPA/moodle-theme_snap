@@ -75,9 +75,16 @@ if (!empty($socialmedialinks)) {
 echo '</div>';
 ?>
 
+<?php
+/* Moodle custom menu. */
+if (!empty($custommenu)) {
+    echo '<div id="moodle-custom-menu">';
+    echo $custommenu;
+    echo '</div>';
+}
+?>
 
-
-
+<div id="page-footer">
 <div class="row">
     <hr />
     <div id="mrooms-footer" class="helplink col-sm-6">        
@@ -96,10 +103,10 @@ echo '</div>';
             ?>
         </small>
     </div>
+    <div class="langmenu col-sm-6 text-right">
+        <?php echo $OUTPUT->lang_menu(); ?>
+    </div>
 </div>
-
-<div id="page-footer">
-<br/>
 <?php echo $OUTPUT->standard_footer_html(); ?>
 </div>
 </footer>

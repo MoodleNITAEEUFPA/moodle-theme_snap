@@ -897,7 +897,6 @@ class core_renderer extends \theme_boost\output\core_renderer {
      *
      * @return string
      */
-    /*
     protected function render_custom_menu(\custom_menu $menu) {
         if (!$menu->has_children()) {
             return '';
@@ -915,7 +914,6 @@ class core_renderer extends \theme_boost\output\core_renderer {
 
         return $content;
     }
-    */
 
     /**
      * Output custom menu items as flat list.

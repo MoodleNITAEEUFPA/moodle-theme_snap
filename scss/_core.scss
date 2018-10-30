@@ -1188,7 +1188,7 @@ header#page-header
     #page-header,
     .carousel-slide {
         // background-color: $brand-primary; customisable
-        min-height: 405px;
+        min-height: 250px;
         position: relative;
         padding: 0;
         margin: 0;
@@ -1216,7 +1216,7 @@ header#page-header
     #page-site-index {
         #page-header,
         .carousel-slide {
-            min-height: 400px;
+            min-height: 250px;
         }
     }
 }
@@ -2981,7 +2981,7 @@ body:not(.pagelayout-course) #moodle-footer {
     padding-bottom: 1em;
     clear: both;
     color: #38322b;
-    background-image: linear-gradient(180deg, #9b8c7a 0, #ffffff 100%);
+    background-image: linear-gradient(180deg, #b9aea2 0, #ffffff 100%);
 }
 
 #snap-footer-content,
@@ -3311,7 +3311,7 @@ table th img.iconhelp {
 
 /* Feature spots. */
 #snap-feature-spots {
-    padding: 2em 10%;
+    padding: 2em 4%;
     text-align: justify;
     text-justify: inter-word;
 

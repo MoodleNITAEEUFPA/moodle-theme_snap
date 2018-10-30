@@ -31,11 +31,6 @@ use theme_snap\renderables\bb_dashboard_link;
 
 ?>
 <header id='mr-nav' class='clearfix moodle-has-zindex'>
-<div class="navbar-nav hidden-md-down" style="margin-left: 15%;">
-<?php
-echo $OUTPUT->custom_menu();
-?>
-</div>
 <div class="pull-right js-only">
 <?php
 if (class_exists('local_geniusws\navigation')) {
